@@ -62,6 +62,12 @@ Walter Bender                       (walter@laptop.org)
 
 """
 
+try:
+    from gi.repository import Gst
+    _HAS_GST = True
+except:
+    _HAS_GST = False
+
 from gi.repository import Gtk
 from gi.repository import Gdk
 from gi.repository import GdkPixbuf
@@ -79,6 +85,7 @@ import array
 from Desenho import Desenho
 from urlparse import urlparse
 from sugar3.graphics import style
+from sugar3.activity import activity
 
 FALLBACK_FILL = True
 try:
@@ -94,6 +101,34 @@ except:
 TARGET_URI = 0
 MAX_UNDO_STEPS = 12
 RESIZE_ARROW_SIZE = style.GRID_CELL_SIZE / 2
+
+# 'tool name': ['soundfile.ext', repeat]
+SOUNDS = {'kalidoscope': ['brush.ogg', True],
+          'eraser': ['eraser.ogg', True],
+          'brush': ['brush.ogg', True],
+          'bucket': ['bucket.ogg', False],
+          'rainbow': ['brush.ogg', False]
+         }
+
+# play full sound of that tools.
+PLAYFULL = [
+    'line',
+    'ellipse',
+    'rectangle',
+    'marquee-rectangular',
+    'freeform',
+    'triangle',
+    'trapezoid',
+    'arrow',
+    'parallelogram',
+    'star',
+    'polygon_regular',
+    'heart',
+    'bucket']
+
+
+if _HAS_GST:
+        Gst.init([])
 
 
 def _get_screen_dpi():
@@ -222,6 +257,22 @@ class Area(Gtk.DrawingArea):
 
         self._update_timer = None
         self._resize_hq_timer = None
+
+        self._player = None
+        self._replay = False
+        self._sounds_enabled = False
+
+        if _HAS_GST:
+            try:
+                self._player = Gst.ElementFactory.make('playbin', 'Player')
+                self._pipeline = Gst.Pipeline()
+                self._bus = self._pipeline.get_bus()
+                self._bus.add_signal_watch()
+                self._bus.connect('message::eos', self.replay_tool_sound)
+                self._pipeline.add(self._player)
+            except:
+                logging.error(
+                    "Sound player is not installed/available in the system.")
 
     def _set_screen_dpi(self):
         dpi = _get_screen_dpi()
@@ -444,6 +495,23 @@ class Area(Gtk.DrawingArea):
                 # toolmove code after mouse release or touch end
                 self._update_timer = None
 
+                if self._player is not None and not self.tool['name'] in PLAYFULL:
+                    try:
+                        self._bus.disconnect_by_func(self.replay_tool_sound)
+                    except:
+                        self.stop_sound()
+                    self.stop_sound()
+
+                    if self._replay:
+                        self._replay = False
+
+                    # Wait one second, and connect it again.
+                    def reconnect():
+                        self._bus.connect('message::eos', self.replay_tool_sound)
+
+                    GObject.timeout_add(100, self.stop_sound)
+                    GObject.timeout_add(1000, reconnect)
+
                 if event.type == Gdk.EventType.BUTTON_RELEASE:
                     _pointer, x, y, state = event.window.get_pointer()
                     shift_pressed = state & Gdk.ModifierType.SHIFT_MASK
@@ -487,6 +555,8 @@ class Area(Gtk.DrawingArea):
 
         if button1_pressed:
             # Handle with the left button click event.
+            if self._sounds_enabled:
+                self.play_tool_sound()
             if self.tool['name'] == 'eraser':
                 self.last = []
                 self.d.eraser(self, coords, self.last)
@@ -756,6 +826,8 @@ class Area(Gtk.DrawingArea):
 
         private_undo = False
         if self.desenha:
+            if self._sounds_enabled:
+                self.play_tool_sound()
             if self.tool['name'] == 'line':
                 self.d.line(self, coords, False)
 
@@ -1836,3 +1908,38 @@ class Area(Gtk.DrawingArea):
             return (self.oldx, self.oldy + sign(dy) * size)
         elif abs(dx) > 0.5 * size and abs(dy) < 0.5 * size:
             return (self.oldx + sign(dx) * size, self.oldy)
+
+    def play_tool_sound(self):
+        if not self._player:
+            return
+
+        try:
+            info = SOUNDS[self.tool['name']]
+            filepath = os.path.join(activity.get_bundle_path(), 'sounds', info[0])
+            self._replay = info[1]
+        except:
+            if self.desenha:
+                filepath = os.path.join(activity.get_bundle_path(), 'sounds', 'oneclick.ogg')
+                self._replay = False
+            else:
+                logging.error("No sound file available for %s" % self.tool['name'])
+                return
+
+        self.stop_sound()
+        self._player.set_property('uri', 'file://%s' % filepath)
+        self._pipeline.set_state(Gst.State.PLAYING)
+
+    def replay_tool_sound(self, bus, msg):
+        if not self._replay:
+            return
+
+        if self._sounds_enabled:
+            self.play_tool_sound()
+
+    def stop_sound(self):
+        self._pipeline.set_state(Gst.State.NULL)
+        self._player.set_state(Gst.State.NULL)
+
+
+    def enable_sounds(self, enabled):
+        self._sounds_enabled = enabled
