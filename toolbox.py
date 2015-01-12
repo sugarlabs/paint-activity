@@ -264,6 +264,15 @@ class DrawEditToolbar(EditToolbar):
         self._clear_all.set_tooltip(_('Clear'))
         self._clear_all.show()
 
+        self._sound = ToggleToolButton('speaker-000')
+        self._sound.set_tooltip(_('Sound enabled'))
+
+        if self._activity.area._player is not None:
+            self.insert(self._sound, -1)
+
+        self._sound.show()
+        self._sound.connect('clicked', self.__sound_cb)
+
         self.undo.connect('clicked', self._undo_cb)
         self.redo.connect('clicked', self._redo_cb)
 
@@ -311,6 +320,9 @@ class DrawEditToolbar(EditToolbar):
 
     def _clear_all_cb(self, widget, data=None):
         self._activity.area.clear()
+
+    def __sound_cb(self, widget):
+        self._activity.area.enable_sounds(widget.get_active())
 
 
 class DrawToolButton(RadioToolButton):
