@@ -2,43 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-12 00:30-0400\n"
+"POT-Creation-Date: 2017-02-17 08:34+1100\n"
 "PO-Revision-Date: 2012-03-10 16:41+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,177 +18,190 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
+#: activity/activity.info:2
 msgid "Paint"
 msgstr "நிறம்/மை"
 
 #. TRANS: "summary" option from activity.info file
-#. TRANS: "description" option from activity.info file
+#: activity/activity.info:3
 msgid ""
 "Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
 "free. Transform images in your mind to beautiful paintings."
 msgstr ""
 
-#: fontcombobox.py:89
+#: fontcombobox.py:90
 msgid "Select font"
 msgstr ""
 
-#: toolbox.py:118
+#: toolbox.py:141
 msgid "Edit"
 msgstr "திருத்து"
 
-#: toolbox.py:122
+#: toolbox.py:145
 msgid "Shapes properties"
 msgstr "வடிவங்களின் பண்புகள்"
 
-#: toolbox.py:133
+#: toolbox.py:161
 msgid "Shapes"
 msgstr "வடிவங்கள்"
 
-#: toolbox.py:143
+#: toolbox.py:177
 msgid "Fonts"
 msgstr "எழுத்துருக்கள்"
 
-#: toolbox.py:149
+#: toolbox.py:183
 msgid "Image"
 msgstr "படம்"
 
-#: toolbox.py:188
+#: toolbox.py:251
 msgid "Undo"
 msgstr "செயலை றத்து செய்"
 
-#: toolbox.py:189
+#: toolbox.py:252
 msgid "Redo"
 msgstr "செயலை மீண்டும் செய்"
 
-#: toolbox.py:190
+#: toolbox.py:253
 msgid "Copy"
 msgstr "பிரதி"
 
-#: toolbox.py:191
+#: toolbox.py:254
 msgid "Paste"
 msgstr "ஒட்டு"
 
-#: toolbox.py:199
+#: toolbox.py:262
 msgid "Clear"
 msgstr "இல்லாமல் செய்"
 
-#: toolbox.py:298 widgets.py:322
-msgid "Brush properties"
-msgstr "தூரிகை பண்புகள்"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
+msgstr ""
 
-#: toolbox.py:307 toolbox.py:311
+#: toolbox.py:325
+msgid "Disable sound"
+msgstr ""
+
+#: toolbox.py:377 toolbox.py:381
 msgid "Brush"
 msgstr "தூரிகை"
 
-#: toolbox.py:314
+#: toolbox.py:384
 msgid "Eraser"
 msgstr "அழிப்பான்"
 
-#: toolbox.py:317
+#: toolbox.py:387
 msgid "Bucket"
 msgstr "வாளி"
 
-#: toolbox.py:320
+#: toolbox.py:390
 msgid "Picker"
 msgstr ""
 
-#: toolbox.py:323
+#: toolbox.py:393
 msgid "Stamp"
 msgstr "முத்திரை"
 
-#: toolbox.py:336
+#: toolbox.py:400
+msgid "Load stamp"
+msgstr ""
+
+#: toolbox.py:410 widgets.py:321
 msgid "Select Area"
 msgstr "பகுதியை தெரிவு செய்"
 
-#: toolbox.py:415
+#: toolbox.py:529
 msgid "Fill"
 msgstr "நிரப்புதல்"
 
-#: toolbox.py:421 widgets.py:286
+#: toolbox.py:535 widgets.py:279
 msgid "Keep aspect"
 msgstr "பார்வையை வைத்திரு"
 
-#: toolbox.py:438
+#: toolbox.py:552
 msgid "Sides: "
 msgstr "பக்கங்கள்: "
 
-#: toolbox.py:511
+#: toolbox.py:621
 msgid "Ellipse"
 msgstr "நீள்வட்டம்"
 
-#: toolbox.py:514
+#: toolbox.py:624
 msgid "Rectangle"
 msgstr "செவ்வகம்"
 
-#: toolbox.py:517
+#: toolbox.py:627
 msgid "Line"
 msgstr "கோடு"
 
-#: toolbox.py:520
+#: toolbox.py:630
 msgid "Free form"
 msgstr "இலவச படிவம்"
 
-#: toolbox.py:523
+#: toolbox.py:633
 msgid "Polygon"
 msgstr "பல்கோணி"
 
-#: toolbox.py:526
+#: toolbox.py:636
 msgid "Heart"
 msgstr "இதயம்"
 
-#: toolbox.py:529
+#: toolbox.py:639
 msgid "Parallelogram"
 msgstr "இணைகரம்"
 
-#: toolbox.py:532
+#: toolbox.py:642
 msgid "Arrow"
 msgstr "அம்பு"
 
-#: toolbox.py:535
+#: toolbox.py:645
 msgid "Star"
 msgstr "நட்சத்திரம்"
 
-#: toolbox.py:538
+#: toolbox.py:648
 msgid "Trapezoid"
 msgstr "சரிவகம்"
 
-#: toolbox.py:541
+#: toolbox.py:651
 msgid "Triangle"
 msgstr "முக்கோணம்"
 
-#: toolbox.py:574
+#: toolbox.py:685
 msgid "Type"
 msgstr "எழுது"
 
-#: toolbox.py:665
+#: toolbox.py:777
 msgid "Insert Image"
 msgstr "படத்தை உச்சேர்"
 
-#: toolbox.py:678
+#: toolbox.py:789
 msgid "Rotate Left"
 msgstr "இடது பக்கத்திருப்பு"
 
-#: toolbox.py:682
+#: toolbox.py:793
 msgid "Rotate Right"
 msgstr "வலது பக்கத்திருப்பு"
 
-#: toolbox.py:687
+#: toolbox.py:798
 msgid "Horizontal Mirror"
 msgstr "கிடைமட்ட கண்ணாடி"
 
-#: toolbox.py:692
+#: toolbox.py:803
 msgid "Vertical Mirror"
 msgstr "நெர்மட்ட கண்ணாடி"
 
-#: toolbox.py:700
+#: toolbox.py:811
 msgid "Grayscale"
 msgstr "நரை மாதிரி"
 
-#: toolbox.py:703
+#: toolbox.py:816
 msgid "Rainbow"
 msgstr "வானவில்"
 
-#: toolbox.py:708
+#: toolbox.py:821
+msgid "Kaleidoscope"
+msgstr ""
+
+#: toolbox.py:825
 msgid "Invert Colors"
 msgstr "வண்ணத்தை தழைகீழாக்கு"
 
@@ -240,21 +225,45 @@ msgstr "சதுரம்"
 msgid "Choose brush properties"
 msgstr "தூரிகை பண்புகளை தெறிவுச்செய்"
 
-#: widgets.py:245
+#: widgets.py:234
 msgid "Size"
 msgstr ""
 
-#: widgets.py:259
+#: widgets.py:248
 msgid "Opacity"
 msgstr ""
 
-#: widgets.py:280
+#: widgets.py:273
 msgid "Shape"
 msgstr "வடிவம்"
 
-#: widgets.py:317
+#: widgets.py:304
+msgid "Brush properties"
+msgstr "தூரிகை பண்புகள்"
+
+#: widgets.py:310
 msgid "Stamp properties"
 msgstr "முத்திரை பண்புகள்"
+
+#: widgets.py:314
+msgid "Eraser properties"
+msgstr ""
+
+#: widgets.py:317
+msgid "Bucket properties"
+msgstr ""
+
+#: widgets.py:319
+msgid "Picker properties"
+msgstr ""
+
+#: dialogs.py:100
+msgid "Done"
+msgstr ""
+
+#: dialogs.py:128
+msgid "Select stamp"
+msgstr ""
 
 #~ msgid "Height"
 #~ msgstr "உயரம்"
