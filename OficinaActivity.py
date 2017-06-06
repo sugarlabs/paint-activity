@@ -153,6 +153,7 @@ class OficinaActivity(activity.Activity):
                                                   size_allocate_cb)
 
         self._setup_handle = self.connect('map', map_cp)
+        map_cp(self)
 
         # Handle screen rotation
         Gdk.Screen.get_default().connect('size-changed', self._configure_cb)
