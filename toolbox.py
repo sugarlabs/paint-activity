@@ -107,6 +107,7 @@ def add_menu(icon_name, tooltip, tool_name, button, activate_cb):
 
 
 class DrawToolbarBox(ToolbarBox):
+
     """Create toolbars for the activity"""
 
     # dictionary - tool name : tool icon name
@@ -492,6 +493,7 @@ class ToolsToolbarBuilder():
 
 
 class ButtonFillColor(ColorToolButton):
+
     """Class to manage the Fill Color of a Button"""
 
     def __init__(self, activity):
