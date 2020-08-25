@@ -779,6 +779,7 @@ class Area(Gtk.DrawingArea):
                 else:
                     cursor = Gdk.Cursor.new(Gdk.CursorType.CROSS)
                 self.get_window().set_cursor(cursor)
+                Gdk.flush()
 
             elif self.tool['name'] == 'freeform':
                 self.desenha = True
@@ -836,6 +837,7 @@ class Area(Gtk.DrawingArea):
             elif self.tool['name'] == 'bucket':
                 self.get_window().set_cursor(Gdk.Cursor.new(
                     Gdk.CursorType.WATCH))
+                Gdk.flush()
                 GLib.idle_add(self.flood_fill, coords[0], coords[1])
 
             elif self.tool['name'] == 'triangle':
@@ -927,6 +929,7 @@ class Area(Gtk.DrawingArea):
             display = Gdk.Display.get_default()
             cursor = Gdk.Cursor.new_from_name(display, 'paint-bucket')
             self.get_window().set_cursor(cursor)
+            Gdk.flush()
             return
 
         if FALLBACK_FILL:
@@ -977,6 +980,7 @@ class Area(Gtk.DrawingArea):
         if self._sounds_enabled:
             self.play_tool_sound()
         self.get_window().set_cursor(cursor)
+        Gdk.flush()
 
     def pick_color(self, x, y):
         # create a new 1x1 cairo surface
@@ -1320,10 +1324,12 @@ class Area(Gtk.DrawingArea):
             self.queue_draw()
             self.enable_undo()
             self.get_toplevel().get_window().set_cursor(old_cursor)
+            Gdk.flush()
 
         old_cursor = self.get_window().get_cursor()
         self.get_toplevel().get_window().set_cursor(
             Gdk.Cursor.new(Gdk.CursorType.WATCH))
+        Gdk.flush()
         GLib.idle_add(internal_invert, self, old_cursor)
 
     def mirror(self, widget, horizontal=True):
@@ -1336,6 +1342,7 @@ class Area(Gtk.DrawingArea):
         """
         old_cursor = self.get_window().get_cursor()
         self.get_window().set_cursor(Gdk.Cursor.new(Gdk.CursorType.WATCH))
+        Gdk.flush()
         GLib.idle_add(self._mirror_internal, widget, horizontal, old_cursor)
 
     def _mirror_internal(self, widget, horizontal, old_cursor):
@@ -1394,9 +1401,11 @@ class Area(Gtk.DrawingArea):
         if not self.is_selected():
             self.enable_undo()
         self.get_window().set_cursor(old_cursor)
+        Gdk.flush()
 
     def _do_process(self, widget, apply_process):
         self.get_window().set_cursor(Gdk.Cursor.new(Gdk.CursorType.WATCH))
+        Gdk.flush()
         GLib.idle_add(self._do_process_internal, widget, apply_process)
 
     def _surface_to_pixbuf(self, surface):
@@ -1447,6 +1456,7 @@ class Area(Gtk.DrawingArea):
             @param  widget -- the Area object (GtkDrawingArea)
         """
         self.get_window().set_cursor(Gdk.Cursor.new(Gdk.CursorType.WATCH))
+        Gdk.flush()
         GLib.idle_add(self._rotate, widget, 270)
 
     def rotate_right(self, widget):
@@ -1456,6 +1466,7 @@ class Area(Gtk.DrawingArea):
             @param  widget -- the Area object (GtkDrawingArea)
         """
         self.get_window().set_cursor(Gdk.Cursor.new(Gdk.CursorType.WATCH))
+        Gdk.flush()
         GLib.idle_add(self._rotate, widget, 90)
 
     def _rotate(self, widget, angle):
@@ -1465,6 +1476,7 @@ class Area(Gtk.DrawingArea):
             @param  widget -- the Area object (GtkDrawingArea)
         """
         self.get_window().set_cursor(Gdk.Cursor.new(Gdk.CursorType.WATCH))
+        Gdk.flush()
 
         if self.is_selected():
             x, y, width, height = self.get_selection_bounds()
@@ -1774,6 +1786,7 @@ class Area(Gtk.DrawingArea):
             cursor = None
         if self.get_window() is not None:
             self.get_window().set_cursor(cursor)
+            Gdk.flush()
 
     def getout(self, undo=False, clear_selection=True):
         """
@@ -1829,6 +1842,7 @@ class Area(Gtk.DrawingArea):
                 if self.tool['name'] == 'marquee-rectangular':
                     self.get_window().set_cursor(Gdk.Cursor.new(
                                                  Gdk.CursorType.CROSS))
+                    Gdk.flush()
                 widget.queue_draw()
                 self.enable_undo()
         elif event.keyval == Gdk.KEY_a and Gdk.ModifierType.CONTROL_MASK:
@@ -1838,6 +1852,7 @@ class Area(Gtk.DrawingArea):
             if self.tool['name'] == 'marquee-rectangular':
                 self.get_window().set_cursor(Gdk.Cursor.new(
                                              Gdk.CursorTypeFLEUR))
+                Gdk.flush()
             self.set_selection_bounds(0, 0, width - 1, height - 1)
             self.emit('select')
             widget.queue_draw()
@@ -1847,12 +1862,14 @@ class Area(Gtk.DrawingArea):
                 if self.tool['name'] == 'marquee-rectangular':
                     self.get_window().set_cursor(Gdk.Cursor.new(
                                                  Gdk.CursorType.CROSS))
+                    Gdk.flush()
                 widget.queue_draw()
         elif event.keyval == Gdk.KEY_Return:
             self.getout(True)
             if self.tool['name'] == 'marquee-rectangular':
                 self.get_window().set_cursor(Gdk.Cursor.new(
                                              Gdk.CursorType.CROSS))
+                Gdk.flush()
             widget.queue_draw()
 
     def change_line_size(self, delta):
