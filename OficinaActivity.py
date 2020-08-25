@@ -126,6 +126,9 @@ class OficinaActivity(activity.Activity):
         self._sw.set_kinetic_scrolling(False)
         self._sw.show()
         self._sw.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        self._sw.set_size_request(self._width, self._height - style.GRID_CELL_SIZE)
+        self._sw.add_with_viewport(self.fixed)
+        self._sw.set_shadow_type(Gtk.ShadowType.NONE)
         self.set_canvas(self._sw)
 
         self.toolset_intialize_from_journal()
@@ -135,25 +138,6 @@ class OficinaActivity(activity.Activity):
         toolbar_box.show_all()
 
         self.connect("key_press_event", self.key_press)
-
-        # setup self.area only once
-
-        def map_cp(widget):
-
-            def size_allocate_cb(widget, allocation):
-                widget.disconnect(self._setup_handle)
-                self.area.setup(allocation.width, allocation.height)
-                self.center_area()
-
-            self.canvas.add_with_viewport(self.fixed)
-            # to remove the border, we need set the shadowtype
-            # in the viewport child of the scrolledwindow
-            self.canvas.get_children()[0].set_shadow_type(Gtk.ShadowType.NONE)
-            self.disconnect(self._setup_handle)
-            self._setup_handle = self._sw.connect('size_allocate',
-                                                  size_allocate_cb)
-
-        self._setup_handle = self.connect('map', map_cp)
 
         # Handle screen rotation
         Gdk.Screen.get_default().connect('size-changed', self._configure_cb)
