@@ -1,3 +1,10 @@
+69.1
+
+* Remove excess logging (James Cameron, Martin Abente),
+* Fix area resize when toolbar is used (James Cameron),
+* Show a busy cursor for long operations (James Cameron),
+* Fix grayscale tool (Martin Abente).
+
 69
 
 * New translations (Chris Leonard et al),
