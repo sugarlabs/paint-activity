@@ -1405,7 +1405,7 @@ class Area(Gtk.DrawingArea):
         return Gdk.pixbuf_get_from_surface(
             surface, 0, 0,
             surface.get_width(),
-            surface.get_height());
+            surface.get_height())
 
     def _pixbuf_to_context(self, pixbuf, context, x=0, y=0):
         # copy from the pixbuf to the drawing context
