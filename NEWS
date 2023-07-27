@@ -1,3 +1,11 @@
+71
+
+* Fix bucket-color tool (Martin Abente)
+* Fix color-picker tool (Martin Abente)
+* Fix grayscale tool (Martin Abente)
+* Fix invert-colors tool (Martin Abente)
+* Remove unnecessary logs (Martin Abente)
+
 70
 
 * Port to Python 3 (Rahul Bothra),
