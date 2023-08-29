@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2010-03-27 20:54+0200\n"
+"PO-Revision-Date: 2012-06-26 22:38+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mr\n"
@@ -15,319 +15,284 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "रंगवणे"
+msgid "Pippy"
+msgstr "पिपी"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "आकार: "
-
-#: widgets.py:17
-msgid "Opacity: "
+#: filedialog.py:79
+msgid "Choose an example to open"
 msgstr ""
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "वर्तुळ"
-
-#: widgets.py:17
-msgid "Square"
-msgstr "चौकोन"
-
-#: widgets.py:31
-msgid "Choose brush properties"
+#: collabwrapper.py:178
+msgid "Joining activity..."
 msgstr ""
 
-#: widgets.py:234
-msgid "Size"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
 msgstr ""
 
-#: widgets.py:248
-msgid "Opacity"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
 msgstr ""
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "आकार"
-
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
+#: toolbars.py:42
+msgid "Zoom in"
 msgstr ""
 
-#: widgets.py:304
-msgid "Brush properties"
+#: toolbars.py:48
+msgid "Zoom out"
 msgstr ""
 
-#: widgets.py:310
-msgid "Stamp properties"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s स्त्रोत्रा"
+
+#: icondialog.py:116
+msgid "Select an icon"
 msgstr ""
 
-#: widgets.py:314
-msgid "Eraser properties"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
 msgstr ""
 
-#: widgets.py:317
-msgid "Bucket properties"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
 msgstr ""
 
-#: widgets.py:319
-msgid "Picker properties"
+#: pippy_app.py:97
+msgid "graphics"
 msgstr ""
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
+#: pippy_app.py:97
+msgid "math"
 msgstr ""
 
-#: toolbox.py:141
+#: pippy_app.py:97
+msgid "python"
+msgstr ""
+
+#: pippy_app.py:97
+msgid "sound"
+msgstr ""
+
+#: pippy_app.py:98
+msgid "string"
+msgstr ""
+
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr ""
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr ""
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr ""
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr ""
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr ""
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr ""
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr ""
+
+#: pippy_app.py:228
 msgid "Edit"
-msgstr "संपादन करणे"
+msgstr "संपादन करा"
 
-#: toolbox.py:145
-msgid "Shapes properties"
+#: pippy_app.py:242
+msgid "View"
 msgstr ""
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "आकार"
-
-#: toolbox.py:177
-msgid "Fonts"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
 msgstr ""
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "छायाचित्र"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "धावा!"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "केलेल्या गोष्टीवर बोला फिरवने"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr ""
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "परत करा"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "थांबा"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "नक्कल"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr ""
 
-#: toolbox.py:254
-msgid "Paste"
-msgstr "छापणे"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
-msgstr "साफ करणे"
-
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
 msgstr ""
 
-#: toolbox.py:325
-msgid "Disable sound"
+#: pippy_app.py:298
+msgid "<alt>c"
 msgstr ""
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "ब्रश"
-
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "खोडरब्बर"
-
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "बादली"
-
-#: toolbox.py:390
-msgid "Picker"
+#: pippy_app.py:314
+msgid "Open an example"
 msgstr ""
 
-#: toolbox.py:393
-msgid "Stamp"
+#: pippy_app.py:389
+msgid "My examples"
 msgstr ""
 
-#: toolbox.py:400
-msgid "Load stamp"
+#: pippy_app.py:496
+msgid "Hide output panel"
 msgstr ""
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "भरणे"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s उद्योग"
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "बाजू: "
-
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "लंबवर्तुळ"
-
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "आयत"
-
-#: toolbox.py:627
-msgid "Line"
-msgstr "रेषा"
-
-#: toolbox.py:630
-msgid "Free form"
+#: pippy_app.py:708
+msgid "Python File added to Library"
 msgstr ""
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "बहूभूज"
-
-#: toolbox.py:636
-msgid "Heart"
-msgstr "हृदय"
-
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "समांतरभुज चौकोन"
-
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "बाण"
-
-#: toolbox.py:645
-msgid "Star"
-msgstr "तारे"
-
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "असमांतरभुज चौकोन"
-
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "त्रिकोण"
-
-#: toolbox.py:685
-msgid "Type"
-msgstr "टाइप"
-
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "छायाचित्र आत घाला"
-
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "डावीकडे फिरवा"
-
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "उजवीकडे फिरवा"
-
-#: toolbox.py:798
-msgid "Horizontal Mirror"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
 msgstr ""
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
+#: pippy_app.py:719
+msgid "Saved"
 msgstr ""
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "राखाडी छटा"
-
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "इंद्रधनुष्य"
-
-#: toolbox.py:821
-msgid "Kaleidoscope"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
 msgstr ""
 
-#: toolbox.py:825
-msgid "Invert Colors"
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
 msgstr ""
 
-#: dialogs.py:100
-msgid "Done"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
 msgstr ""
 
-#: dialogs.py:128
-msgid "Select stamp"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
 msgstr ""
 
-#: fontcombobox.py:90
-msgid "Select font"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "अँक्टिवीटीमधील चुक नोंदवा"
+
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr "कृपया तुमच्या अँक्टिवीटीला नोंदविण्यापुर्वी योग्य नाव द्या"
+
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "ओ के"
+
+#: pippy_app.py:779
+msgid "Activity icon"
 msgstr ""
 
-#~ msgid "Height"
-#~ msgstr "उंची"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr ""
 
-#~ msgid "Width"
-#~ msgstr "रुंदी"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "अँक्टिवीटी बंडल बनवा"
 
-#~ msgid "Choose image"
-#~ msgstr "चित्र निवडा"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr ""
 
-#~ msgid "Tools"
-#~ msgstr "साधने"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr ""
 
-#~ msgid "Text"
-#~ msgstr "शब्द"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
 
-#~ msgid "Effects"
-#~ msgstr "परिणाम"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr ""
 
-#~ msgid "Stroke Color"
-#~ msgstr "स्ट्रोक कलर"
+#: pippy_app.py:912
+#, fuzzy
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr "कृपया तुमच्या अँक्टिवीटीला नोंदविण्यापुर्वी योग्य नाव द्या"
 
-#~ msgid "Pencil"
-#~ msgstr "पेन्सिल"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr ""
 
-#~ msgid "Fill Color"
-#~ msgstr "रंग भरा"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr ""
 
-#~ msgid "Points: "
-#~ msgstr "बिंदू: "
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr ""
 
-#~ msgid "1000"
-#~ msgstr "१०००"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr ""
 
-#~ msgid "500"
-#~ msgstr "५००"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr ""
 
-#~ msgid "200"
-#~ msgstr "२००"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "अँक्टिवीटी जनरलमध्य़े टाका"
 
-#~ msgid "150"
-#~ msgstr "१५०"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr ""
 
-#~ msgid "100"
-#~ msgstr "१००"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr ""
 
-#~ msgid "50"
-#~ msgstr "५०"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr ""
 
-#~ msgid "25"
-#~ msgstr "२५"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr ""
 
-#~ msgid "10"
-#~ msgstr "१०"
-
-#~ msgid "ZOOM +"
-#~ msgstr "झूम +"
-
-#~ msgid "ZOOM -"
-#~ msgstr "झूम -"
-
-#~ msgid "Rectangular Marquee"
-#~ msgstr "आयताकृती तंबू"
-
-#~ msgid "Tool Color"
-#~ msgstr "साधनाचा रंग"
-
-#~ msgid "Fill Color: "
-#~ msgstr "रंग भरा: "
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "थोडा वेळ थांबा"

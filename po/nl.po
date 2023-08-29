@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-02-17 04:52+0000\n"
+"PO-Revision-Date: 2017-03-27 15:50+0000\n"
 "Last-Translator: whe <heppew@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -16,333 +16,295 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1487307122.000000\n"
+"X-POOTLE-MTIME: 1490629832.000000\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Tekenen"
+msgid "Pippy"
+msgstr "Pippy"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Picasso? Van Gogh? Jij kan ook één van hen worden! Laat je innerlijke "
-"artiest vrij. Vorm beelden in je hoofd om tot prachtige schilderijen."
+"Op zoek naar programmeurs! Hier kun je voorbeelden gebruiken on de taal te "
+"leren die je computer begrijpt, genaamd \"Python.\""
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Grootte: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr "Kies een te openen voorbeeld"
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Doorzichtigheid: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr "Deelnemen aan een activiteit..."
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Cirkel"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr "Wacht op de verbinding..."
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Vierkant"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr "Doorgaan met gedeelde activiteit..."
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Kies kwasteigenschappen"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr "Zoom in"
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Grootte"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr "Zoom uit"
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Doorzichtigheid"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s Bron"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Vorm"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr "Selecteer een icon"
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Bewaar aanzicht"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr "Nieuw Bronbestand %d"
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Kwast eigenschappen"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr ""
+"Kan TamTamEdit geluidsbibliotheek niet vinden. Heb je TamTamEdit "
+"geïnstalleerd?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Stempel eigenschappen"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr "grafisch"
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Wisser eigenschappen"
+#: pippy_app.py:97
+msgid "math"
+msgstr "wiskunde"
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Emmer eigenschappen"
+#: pippy_app.py:97
+msgid "python"
+msgstr "python"
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Prikker eigenschappen"
+#: pippy_app.py:97
+msgid "sound"
+msgstr "geluid"
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Selecteer Gebied"
+#: pippy_app.py:98
+msgid "string"
+msgstr "snaar"
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr "oefeningen"
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr "Importeer Python bestand in nieuwe tab"
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr "Uitvoer als Pippy document"
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr "Bewaar dit bestand in de Pippy bibliotheek"
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr "Uitvoer als nieuw Pippy voorbeeld"
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr "Maak een Sugar activiteit bundel"
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr "Exporteer als een distutils package"
+
+#: pippy_app.py:228
 msgid "Edit"
 msgstr "Bewerken"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Vorm eigenschappen"
+#: pippy_app.py:242
+msgid "View"
+msgstr "Bekijk"
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Vormen"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr "Toon uitvoerpaneel"
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Fonts"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Uitvoeren!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Afbeelding"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>r"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Ongedaan maken"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Stop"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Herhalen"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kopiëren"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Plakken"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
-msgstr "Leeg maken"
+msgstr "Wissen"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Geluid aan"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Geluid uit"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr "Open een voorbeeld"
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Kwast"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Mijn voorbeelden"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Gum"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr "Verberg uitvoerpaneel"
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Emmer"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s Activiteit"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Prikker"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr "Python Bestand aan Bibliotheek toegevoegd"
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Zegel"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
+"Het geselecteerde bestand is aan de bibliotheek toegevoegd. Gebruik \"import "
+"{importnaam}\" om de bibliotheek te importeren voor gebruik."
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Laad stempel"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr "Bewaard"
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Vullen"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr "Het document is in het logboek bewaard."
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Kanten: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr "Fout bij importeren Python bestand"
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Ellips"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr "Het geselecteerde bestand is geen Python bestand."
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Rechthoek"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr "Het geselecteerde bestand is al open"
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Lijn"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Fout bij bewaren als Activiteit"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Vrij formaat"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Geef je activiteit een betekenisvolle naam voordat je hem bewaart als "
+"activiteit."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Polygoon"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "Ok"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Hart"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr "Activiteit icon"
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Parallellogram"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr "Selecteer een activiteit icon."
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Pijl"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Bezig met activiteit bundel maken..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Ster"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Pippy Activiteit"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Trapezium"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr "Bewaar als  distutils package fout"
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Driehoek"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
+"Geef je activiteit een zinvolle naam voor het bewaren als een distutils "
+"package."
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Type"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Bewaar als Voorbeeld Fout"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Afbeelding invoegen"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Geef je activiteit een betekenisvolle naam voordat je hem bewaart "
+"alsvoorbeeld."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Linksom draaien"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Voorbeeld aanmaken..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Rechtsom draaien"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Bewaar als Voorbeeld Waarschuwing"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Horizontale spiegel"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Dit voorbeeld bestaat al. Wil je het overschrijven?"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Verticale spiegel"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Bewaard als voorbeeld."
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Grijswaarden"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr "Fout bij bewaren van activiteit in het logboek."
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Regenboog"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Activiteit is bewaard in je dagboek."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kaleidoscoop"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr "Fout"
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Inverteer kleuren"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr "Fout bij lezen van data."
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Klaar"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr "Bezig..."
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Selecteer stempel"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr "klaar!"
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Selecteer lettertype"
-
-#~ msgid "Kalidoscope"
-#~ msgstr "Kaleidoscoop"
-
-#~ msgid "Height"
-#~ msgstr "Hoogte"
-
-#~ msgid "Width"
-#~ msgstr "Breedte"
-
-#~ msgid "Choose image"
-#~ msgstr "Afbeelding kiezen"
-
-#~ msgid "Tools"
-#~ msgstr "Werktuigen"
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
-
-#~ msgid "Effects"
-#~ msgstr "Effecten"
-
-#~ msgid "Stroke Color"
-#~ msgstr "Pen kleur"
-
-#~ msgid "Pencil"
-#~ msgstr "Penseel"
-
-#~ msgid "Fill Color"
-#~ msgstr "Invul kleur"
-
-#~ msgid "Points: "
-#~ msgstr "Punten: "
-
-#~ msgid "Keep Aspect"
-#~ msgstr "Bewaar aanzicht"
-
-#~ msgid "1000"
-#~ msgstr "1000"
-
-#~ msgid "500"
-#~ msgstr "500"
-
-#~ msgid "200"
-#~ msgstr "200"
-
-#~ msgid "150"
-#~ msgstr "150"
-
-#~ msgid "100"
-#~ msgstr "100"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "25"
-#~ msgstr "25"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid "ZOOM +"
-#~ msgstr "ZOOM +"
-
-#~ msgid "ZOOM -"
-#~ msgstr "ZOOM -"
-
-#~ msgid "Mirror Horizontal"
-#~ msgstr "Spiegel Horizontaal"
-
-#~ msgid "Mirror Vertical"
-#~ msgstr "Spiegel Verticaal"
-
-#~ msgid "Rectangular Marquee"
-#~ msgstr "Rechthoekig markeren"
-
-#~ msgid "Tool Color"
-#~ msgstr "Werktuig kleur"
-
-#~ msgid "Fill Color: "
-#~ msgstr "Invul kleur: "
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "GEPAUZEERD"

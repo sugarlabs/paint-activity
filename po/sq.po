@@ -2,48 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2018-02-03 21:34+0000\n"
+"PO-Revision-Date: 2018-02-04 10:33+0000\n"
 "Last-Translator: Besnik_b <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -52,319 +16,294 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1517693673.000000\n"
+"X-POOTLE-MTIME: 1517740438.000000\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Vizatim"
+msgid "Pippy"
+msgstr "Pipi"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Picasso? Van Gogh? Mund të jeni cilido prej tyre! Thjesht lëreni të lirë "
-"artistin brenda jush. Shndërrojini figurat e mendjes tuaj në piktura të "
-"hijshme."
+"Kërkim për programues! Këtu mund të përdorni shembuj për të filluar të "
+"mësoni gjuhën që kupton kompjuteri juaj, të quajtur \"Python\"."
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Madhësi: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr "Zgjidhni një shembull të hapet"
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Patejdukshmëri: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr "Po hyhet në veprimtari…"
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Rreth"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr "Ju lutemi, pritni për lidhjen…"
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Katror"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr "Po rimerret veprimtari e përbashkët…"
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Zgjidhni veti peneli"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr "Zmadhoje"
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Madhësi"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr "Zvogëloje"
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Patejdukshmëri"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "Burim %s"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Formë"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr "Përzgjidhni një ikonë"
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Ruaji përpjestimet"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr "Kartelë e Re Burim %d"
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Veti peneli"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr ""
+"S’gjendet dot libraria e tingujve TamTamEdit. E keni instaluar TamTamEdit-in?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Veti stampe"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr "grafika"
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Veti fshirëseje"
+#: pippy_app.py:97
+msgid "math"
+msgstr "llogaritje"
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Veti kanoçeje"
+#: pippy_app.py:97
+msgid "python"
+msgstr "python"
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Veti zgjedhësi"
+#: pippy_app.py:97
+msgid "sound"
+msgstr "tingull"
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Përzgjidhni Zonë"
+#: pippy_app.py:98
+msgid "string"
+msgstr "varg"
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr "përkujdesore"
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr "Importoni kartelë Python te një skedë e re"
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr "Eksportoje si dokument Pippy"
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr "Ruaje këtë kartelë te biblioteka Pippy"
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr "Eksportoje si një shembull Pippy"
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr "Krijoni një paketë veprimtarish Sugar"
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr "Eksportoje si paketë distutils"
+
+#: pippy_app.py:228
 msgid "Edit"
-msgstr "Përpunoni"
+msgstr "Përpunojeni"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Veti formash"
+#: pippy_app.py:242
+msgid "View"
+msgstr "Shiheni"
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Forma"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr "Shfaq panel përfundimesh"
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Shkronja"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Xhiroje!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Figurë"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>x"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Zhbëje"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Ndale"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Ribëje"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>r"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kopjoje"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Ngjite"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "Pastroje"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Aktivizo tingujt"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>k"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Çaktivizo tingujt"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr "Hapni një shembull"
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Penel"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Shembujt e mi"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Fshirëse"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr "Fshih panel përfundimesh"
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Kanoçe"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "Veprimtaria %s"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Zgjedhës"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr "Kartela Python u shtua te Libraria"
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Stampë"
-
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Ngarko stampë"
-
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Mbushje"
-
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Anë: "
-
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Elips"
-
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Drejtkëndësh"
-
-#: toolbox.py:627
-msgid "Line"
-msgstr "Vijë"
-
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Me dorë të lirë"
-
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Shumëkëndësh"
-
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Zemër"
-
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Paralelogram"
-
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Shigjetë"
-
-#: toolbox.py:645
-msgid "Star"
-msgstr "Yll"
-
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Trapezoid"
-
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Trekëndësh"
-
-#: toolbox.py:685
-msgid "Type"
-msgstr "Lloj"
-
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Futni Figurë"
-
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Rrotulloje Majtas"
-
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Rrotulloje Djathtas"
-
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Pasqyrë Horizontale"
-
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Pasqyrë Vertikale"
-
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Shkallë të Grisë"
-
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Ylber"
-
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kaleidoskop"
-
-#: toolbox.py:825
-msgid "Invert Colors"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
 msgstr ""
+"Kartela që keni përzgjedhur u shtua te biblioteka. Përdorni urdhrin \"import "
+"{importname}\" që të importoni bibliotekën për ta përdorur."
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "U bë"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr "U ruajt"
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Përzgjidhni stampë"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr "Dokumenti u ruajt në ditar."
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Përzgjidhni shkronja"
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr "Gabim në importimin e kartelës Python"
 
-#~ msgid "Kalidoscope"
-#~ msgstr "Kaleidoskop"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr "Kartela që përzgjodhët s’është kartelë Python."
 
-#~ msgid "Height"
-#~ msgstr "Lartësia"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr "Kartela që përzgjodhët është e hapur tashmë"
 
-#~ msgid "Width"
-#~ msgstr "Gjerësia"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Ruaje si Gabim Veprimtarie"
 
-#~ msgid "Choose image"
-#~ msgstr "Zgjidhni imazhin"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Ju lutemi, përpara se të provoni ta ruani si një veprimtari, jepini "
+"veprimtarisë suaj një emër që ka kuptim."
 
-#~ msgid "Tools"
-#~ msgstr "Vegla"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "Ok"
 
-#~ msgid "Text"
-#~ msgstr "Tekst"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr "Ikonë veprimtarie"
 
-#~ msgid "Effects"
-#~ msgstr "Efekt"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr "Ju lutemi, përzgjidhni një ikonë veprimtarie."
 
-#~ msgid "Pencil"
-#~ msgstr "Laps"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Po krijohet grup veprimtarish…"
 
-#~ msgid "Fill Color"
-#~ msgstr "Mbushur ngjyra"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Veprimtaria Pipi"
 
-#~ msgid "Points: "
-#~ msgstr "Pikët: "
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr "Gabim në ruajtjen si paketë distutils"
 
-#~ msgid "1000"
-#~ msgstr "Njëmijë"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
+"Ju lutemi, jepini veprimtarisë tuaj një emër me kuptim, përpara se të "
+"përpiqeni ta ruani si paketë distutils."
 
-#~ msgid "500"
-#~ msgstr "Pesëqind"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Ruaje si Gabim Shembulli"
 
-#~ msgid "200"
-#~ msgstr "Dyqind"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Ju lutemi, përpara se të provoni ta ruani si një shembull, jepini "
+"veprimtarisë suaj një emër që ka kuptim."
 
-#~ msgid "150"
-#~ msgstr "Njëqind pesëdhjetë"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Po krijohet shembull…"
 
-#~ msgid "100"
-#~ msgstr "Njëqind"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Ruaje si Paralajmërim Shembulli"
 
-#~ msgid "50"
-#~ msgstr "Pesëdhjetë"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Ka tashmë një shembull të tillë. Doni të mbishkruhet?"
 
-#~ msgid "25"
-#~ msgstr "Njëzet e pesë"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "U ruajt si shembull."
 
-#~ msgid "10"
-#~ msgstr "Dhjetë"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr "Gabim gjatë ruajtjes së veprimtarisë në ditar."
 
-#~ msgid "ZOOM +"
-#~ msgstr "Zmadho +"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Veprimtaria u ruajt në ditar."
 
-#~ msgid "ZOOM -"
-#~ msgstr "Zvoglo -"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr "Gabim"
 
-#~ msgid "Rectangular Marquee"
-#~ msgstr "Tendë drejtkëndor"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr "Gabim gjatë leximit të të dhënave."
 
-#~ msgid "Fill Color: "
-#~ msgstr "Mbushur ngjyra: "
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr "Po punohet…"
+
+#: pippy_app.py:1451
+msgid "done!"
+msgstr "u bë!"
+
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "E PUSHUAR"

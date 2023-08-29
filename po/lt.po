@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-02-17 11:11+0000\n"
+"PO-Revision-Date: 2017-11-12 20:14+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
@@ -17,256 +17,289 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1487329906.000000\n"
+"X-POOTLE-MTIME: 1510517641.000000\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Piešti"
+msgid "Pippy"
+msgstr "Pippi"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Pikasas? Van Gogas? Jūs galite būti bet kuriuo iš jų! Tiesiog, išlaisvinkite "
-"jumyse esantį dailininką. Paverskite paveikslėlius jūsų mintyse gražiais "
-"piešiniais."
+"Ieškome programuotojų! Čia galėsite naudoti pavyzdžius, kad pradėtumėte "
+"mokytis jūsų kompiuteriui suprantamos kalbos, pavadinimu \"Python\"."
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Dydis: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr ""
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Nepermatomumas: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Apskritimas"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Kvadratas"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr ""
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Pasirinkti teptuko savybes"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr "Didinti"
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Dydis"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr "Mažinti"
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Nepermatomumas"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s šaltinis"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Forma"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr ""
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Išlaikyti proporcijas"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr ""
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Teptuko savybės"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr "Nepavyksta rasti TamTamEdit garso bibliotekos. Ar įdiegėte TamTamEdit?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Antspaudo savybės"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr "grafika"
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Trintuko savybės"
+#: pippy_app.py:97
+msgid "math"
+msgstr "matematika"
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Kibirėlio savybės"
+#: pippy_app.py:97
+msgid "python"
+msgstr "python"
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Pipetės savybės"
+#: pippy_app.py:97
+msgid "sound"
+msgstr "garsas"
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Pažymėti sritį"
+#: pippy_app.py:98
+msgid "string"
+msgstr ""
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr ""
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr "Importuoti Python failą į naują kortelę"
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr "Eksportuoti kaip Pippy dokumentą"
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr "Įrašyti šį failą į Pippy biblioteką"
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr "Eksportuoti kaip naują Pippy pavyzdį"
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr ""
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr ""
+
+#: pippy_app.py:228
 msgid "Edit"
-msgstr "Taisyti"
+msgstr "Redaguoti"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Formos savybės"
+#: pippy_app.py:242
+msgid "View"
+msgstr ""
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Figūros"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr "Rodyti išvesties skydelį"
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Šriftai"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Vykdyti!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Paveikslėlis"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>r"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Atšaukti"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Stabdyti"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Grąžinti"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kopijuoti"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Įdėti"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "Išvalyti"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Įjungti garsą"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Išjungti garsą"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr "Atverti pavyzdį"
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Teptukas"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Mano pavyzdžiai"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Trintukas"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr "Slėpti išvesties skydelį"
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Kibirėlis"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s veikla"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Pipetė"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr ""
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Antspaudas"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Įkelti antspaudą"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr "Įrašyta"
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Užpildyti"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr "Dokumentas įrašytas į žurnalą."
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Šonai: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr "Klaida, importuojant Python failą"
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Elipsė"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr "Jūsų pasirinktas failas nėra Python failas."
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Stačiakampis"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr "Jūsų pasirinktas failas jau yra atvertas"
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Linija"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Klaida, įrašant kaip veiklą"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Laisva forma"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Prašome, prieš bandant įrašyti kaip veiklą, suteikti savo veiklai prasmingą "
+"pavadinimą."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Daugiakampis"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "Gerai"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Širdelė"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr ""
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Lygiagretainis"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr ""
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Rodyklė"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Kuriamas veiklos rinkinys..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Žvaigždė"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Pippi veikla"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Trapecija"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr ""
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Trikampis"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Rašyti"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Klaida, įrašant kaip pavyzdį"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Įterpti paveikslėlį"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Prašome, prieš bandant įrašyti kaip pavyzdį, suteikti savo veiklai prasmingą "
+"pavadinimą."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Pasukti kairėn"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Kuriamas pavyzdys..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Pasukti dešinėn"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Įspėjimas, įrašant kaip pavyzdį"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Horizontalus veidrodis"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Šis pavyzdys jau yra. Ar norite jį perrašyti?"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Vertikalus veidrodis"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Įrašyta kaip pavyzdys."
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Pilkio pustoniai"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr "Klaida, įrašant veiklą į žurnalą."
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Vaivorykštė"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Veikla įrašyta į žurnalą."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kaleidoskopas"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr "Klaida"
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Invertuoti spalvas"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr "Klaida, skaitant duomenis."
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Atlikta"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr "Dirbama..."
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Pasirinkti antspaudą"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr "atlikta!"
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Pasirinkti šriftą"
-
-#~ msgid "Kalidoscope"
-#~ msgstr "Kaleidoskopas"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "PRISTABDYTA"

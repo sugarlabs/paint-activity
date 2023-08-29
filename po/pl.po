@@ -2,41 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2018-12-16 15:48+0000\n"
-"Last-Translator: KrzysztofJ <krzysztofjesz@gmail.com>\n"
+"PO-Revision-Date: 2012-06-26 22:46+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -44,325 +16,291 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1544975283.000000\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Maluj"
+msgid "Pippy"
+msgstr "Pippy"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Picasso? Van Gogh? Możesz być jednym z nich! Uwolnij swojego wewnętrznego "
-"artystę. Zamień swe pomysły na piękne obrazy."
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Rozmiar: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr ""
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Nieprzezroczystość: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Koło"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Kwadrat"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr ""
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Wybierz właściwości pędzla"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr ""
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Rozmiar"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr ""
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Nieprzezroczystość"
+# Źródło czegoś, tak?
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "Źródło %s"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Kształt"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr ""
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Zachowaj proporcje"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr ""
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Właściwości pędzla"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr ""
+"Nie mogę znaleźć biblioteki dźwięków TamTamEdytora. Czy zainstalowałeś "
+"TamTamEdytor?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Właściwości znaczków"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr ""
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Właściwości gumki"
+#: pippy_app.py:97
+msgid "math"
+msgstr ""
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Właściwości wiadra"
+#: pippy_app.py:97
+msgid "python"
+msgstr ""
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Właściwości próbnika"
+#: pippy_app.py:97
+msgid "sound"
+msgstr ""
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Zaznacz obszar"
+#: pippy_app.py:98
+msgid "string"
+msgstr ""
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr ""
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr ""
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr ""
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr ""
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr ""
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr ""
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr ""
+
+#: pippy_app.py:228
 msgid "Edit"
 msgstr "Edytuj"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Ustawienia kształtów"
+#: pippy_app.py:242
+msgid "View"
+msgstr ""
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Kształty"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr ""
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Czcionka"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Uruchom!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Obraz"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>r"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Cofnij"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Stop"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Ponów"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kopiuj"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Wklej"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Włącz dźwięk"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Wyłącz dźwięk"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr ""
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Pędzel"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Moje przykłady"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Gumka"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr ""
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Wiadro"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "Czynność %s"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Próbnik"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr ""
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Pieczątka"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Załaduj pieczątkę"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr ""
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Wypełnij"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr ""
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Boki: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr ""
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Elipsa"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr ""
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Prostokąt"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr ""
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Linia"
+# kapitalizacja
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Zapisz jako błąd Aktywności"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Dowolna forma"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Proszę nadaj swojej czynności nazwę, która ją dobrze opisuje, zanim "
+"zapiszesz ją jako czynność."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Wielokąt"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "Ok"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Serce"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr ""
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Serce"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr ""
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Strzałka"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Tworzę pakiet aktywności..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Strzałka"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Aplikacja Pippy"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Trapez"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr ""
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Trójkąt"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Typ"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Zapisz jako przykład błędu"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Wstaw obraz"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Proszę nadaj swojej aktywności nazwę która ją dobrze opisuje, zanim "
+"zapiszesz ją jako przykład."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Obróć w lewo"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Tworzę przykład..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Obróć w prawo"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Zapisz jako przykład ostrzeżenia"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Lustro horyzontalne"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Ten przykład już istnieje. Czy chcesz go zmienić?"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Lustro wertykalne"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Zapisane jako przykład."
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Skala szarości"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr ""
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Tęcza"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Aktywność zapisana w dzienniku."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kalejdoskop"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr ""
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Odwróć kolory"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr ""
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Gotowe"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr ""
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Wybierz pieczątkę"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr ""
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Wybierz czcionkę"
-
-#~ msgid "Kalidoscope"
-#~ msgstr "Kalejdoskop"
-
-#~ msgid "Height"
-#~ msgstr "Wysokość"
-
-#~ msgid "Width"
-#~ msgstr "Szerokość"
-
-#~ msgid "Choose image"
-#~ msgstr "Wybierz obraz"
-
-#~ msgid "Tools"
-#~ msgstr "Narzędzia"
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
-
-#~ msgid "Effects"
-#~ msgstr "Efekty"
-
-#~ msgid "Stroke Color"
-#~ msgstr "Kolor obramowania"
-
-#~ msgid "Pencil"
-#~ msgstr "Ołówek"
-
-#~ msgid "Fill Color"
-#~ msgstr "Kolor wypełnienia"
-
-#~ msgid "Points: "
-#~ msgstr "Punkty:"
-
-#~ msgid "1000"
-#~ msgstr "1000"
-
-#~ msgid "500"
-#~ msgstr "500"
-
-#~ msgid "200"
-#~ msgstr "200"
-
-#~ msgid "150"
-#~ msgstr "150"
-
-#~ msgid "100"
-#~ msgstr "100"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "25"
-#~ msgstr "25"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid "ZOOM +"
-#~ msgstr "Powiększ"
-
-#~ msgid "ZOOM -"
-#~ msgstr "Zmniejsz"
-
-#~ msgid "Rectangular Marquee"
-#~ msgstr "Zaznaczanie prostokątne"
-
-#~ msgid "Tool Color"
-#~ msgstr "Kolor narzędzia"
-
-#~ msgid "Fill Color: "
-#~ msgstr "Kolor wypełnienia:"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "PAUZA"

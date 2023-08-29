@@ -2,383 +2,296 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: OLPC Paint\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2012-05-19 16:29+0200\n"
-"Last-Translator: Yuan <yuanchao@gmail.com>\n"
-"Language-Team: Yuan CHAO <yuanchao@gmail.com>\n"
+"PO-Revision-Date: 2012-06-26 20:59+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "繪圖"
+msgid "Pippy"
+msgstr "小蟒軟體開發"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "尺寸大小:"
-
-#: widgets.py:17
-msgid "Opacity: "
+#: filedialog.py:79
+msgid "Choose an example to open"
 msgstr ""
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "圓形"
-
-#: widgets.py:17
-msgid "Square"
-msgstr "正方形"
-
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "選擇筆刷屬性"
-
-#: widgets.py:234
-msgid "Size"
+#: collabwrapper.py:178
+msgid "Joining activity..."
 msgstr ""
 
-#: widgets.py:248
-msgid "Opacity"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
 msgstr ""
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "形狀"
-
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "保持長寬比"
-
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "筆刷屬性"
-
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "印章屬性"
-
-#: widgets.py:314
-msgid "Eraser properties"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
 msgstr ""
 
-#: widgets.py:317
-msgid "Bucket properties"
+#: toolbars.py:42
+msgid "Zoom in"
 msgstr ""
 
-#: widgets.py:319
-msgid "Picker properties"
+#: toolbars.py:48
+msgid "Zoom out"
 msgstr ""
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "選擇區域"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s 原始碼"
 
-#: toolbox.py:141
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr ""
+
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr ""
+
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr "找不到TamTamEdit聲音庫，安裝TamTamEdit了嗎？"
+
+#: pippy_app.py:97
+msgid "graphics"
+msgstr ""
+
+#: pippy_app.py:97
+msgid "math"
+msgstr ""
+
+#: pippy_app.py:97
+msgid "python"
+msgstr ""
+
+#: pippy_app.py:97
+msgid "sound"
+msgstr ""
+
+#: pippy_app.py:98
+msgid "string"
+msgstr ""
+
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr ""
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr ""
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr ""
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr ""
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr ""
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr ""
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr ""
+
+#: pippy_app.py:228
 msgid "Edit"
 msgstr "編輯"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "多邊形屬性"
+#: pippy_app.py:242
+msgid "View"
+msgstr ""
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "形狀"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr ""
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "字型"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "執行！"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "圖片"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>F"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "復原"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "停止"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "取消復原"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "複製"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "貼上"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "清除"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
+
+#: pippy_app.py:314
+msgid "Open an example"
 msgstr ""
 
-#: toolbox.py:325
-msgid "Disable sound"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "我的範例"
+
+#: pippy_app.py:496
+msgid "Hide output panel"
 msgstr ""
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "刷筆"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s 活動"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "橡皮擦"
-
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "水彩桶"
-
-#: toolbox.py:390
-msgid "Picker"
-msgstr "吸取顏色"
-
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "印章"
-
-#: toolbox.py:400
-msgid "Load stamp"
+#: pippy_app.py:708
+msgid "Python File added to Library"
 msgstr ""
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "填滿"
-
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "邊:"
-
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "橢圓形"
-
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "矩形"
-
-#: toolbox.py:627
-msgid "Line"
-msgstr "線條"
-
-#: toolbox.py:630
-msgid "Free form"
-msgstr "自由格式"
-
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "多邊形"
-
-#: toolbox.py:636
-msgid "Heart"
-msgstr "心形"
-
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "平行四邊形"
-
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "箭頭"
-
-#: toolbox.py:645
-msgid "Star"
-msgstr "星星"
-
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "梯形"
-
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "三角形"
-
-#: toolbox.py:685
-msgid "Type"
-msgstr "類型"
-
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "插入圖形"
-
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "向左轉"
-
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "向右轉"
-
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "水平鏡像"
-
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "垂直鏡像"
-
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "灰階"
-
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "漸層色"
-
-#: toolbox.py:821
-msgid "Kaleidoscope"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
 msgstr ""
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "對比色"
-
-#: dialogs.py:100
-msgid "Done"
+#: pippy_app.py:719
+msgid "Saved"
 msgstr ""
 
-#: dialogs.py:128
-msgid "Select stamp"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
 msgstr ""
 
-#: fontcombobox.py:90
-msgid "Select font"
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
 msgstr ""
 
-#~ msgid "Height"
-#~ msgstr "高度"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr ""
 
-#~ msgid "Width"
-#~ msgstr "寬度"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr ""
 
-#~ msgid "Choose image"
-#~ msgstr "選擇圖片"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "儲存為活動時發生錯誤"
 
-#~ msgid "Tools"
-#~ msgstr "工具"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr "在進行儲存前，請先為你的活動取一個有意義的名字。"
 
-#~ msgid "Text"
-#~ msgstr "文字"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "確定"
 
-#~ msgid "Effects"
-#~ msgstr "特效"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr ""
 
-#~ msgid "Stroke Color"
-#~ msgstr "畫筆顏色"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr ""
 
-#~ msgid "Pencil"
-#~ msgstr "鉛筆"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "建立活動套件包中…"
 
-#~ msgid "Fill Color"
-#~ msgstr "填滿顏色"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "小蟒活動"
 
-#~ msgid "Points: "
-#~ msgstr "頂點: "
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr ""
 
-#~ msgid "Keep Aspect"
-#~ msgstr "保持比例"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
 
-#~ msgid "1000"
-#~ msgstr "1000"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "儲存為錯誤範例"
 
-#~ msgid "500"
-#~ msgstr "500"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr "在儲存為範例之前，請先為你的活動取一個有意義的名字。"
 
-#~ msgid "200"
-#~ msgstr "200"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "建立範例"
 
-#~ msgid "150"
-#~ msgstr "150"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "儲存為警告範例"
 
-#~ msgid "100"
-#~ msgstr "100"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "這個範例已經存在，覆寫它嗎？"
 
-#~ msgid "50"
-#~ msgstr "50"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "儲存為範例"
 
-#~ msgid "25"
-#~ msgstr "25"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr ""
 
-#~ msgid "10"
-#~ msgstr "10"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "活動已存入日誌。"
 
-#~ msgid "ZOOM +"
-#~ msgstr "放大"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr ""
 
-#~ msgid "ZOOM -"
-#~ msgstr "縮小"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr ""
 
-#~ msgid "Mirror Horizontal"
-#~ msgstr "水平鏡象"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr ""
 
-#~ msgid "Mirror Vertical"
-#~ msgstr "垂直鏡象"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr ""
 
-#~ msgid "Rectangular Marquee"
-#~ msgstr "矩形選擇區域"
-
-#~ msgid "Tool Color"
-#~ msgstr "工具顏色"
-
-#~ msgid "Fill Color: "
-#~ msgstr "填滿顏色: "
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgid "20"
-#~ msgstr "20"
-
-#~ msgid "Open File..."
-#~ msgstr "開啟舊檔..."
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "暫停"

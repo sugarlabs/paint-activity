@@ -7,271 +7,295 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-02-18 03:23+0000\n"
-"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
+"PO-Revision-Date: 2012-06-26 20:48+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1487388238.000000\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Նկարել"
+msgid "Pippy"
+msgstr "Պիտոն Պիպպի"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Պիկա՞սո, Վան Գո՞գ. Կարող ես լինել նրանցից մեկը: Պարզապես ազատիր քո ներսում "
-"գտնվող արվեստագերին: Վերածիր քո մտքում եղած պատկերները գեղեցիկ նկարների:"
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Չափս. "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr ""
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Անթափանցիկություն. "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Շրջանագիծ"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Քառակուսի"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr ""
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Ընտրեք վրձնի հատկանիշները"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr ""
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Չափս"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr ""
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Անթափանցիկություն"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s Աղբյուր"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Ձև"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr ""
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Պահել արտաքին տեսքը"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr ""
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Վրձնի հատկանիշները"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr "TamTamEdit -ի ձայնդարանը չեմ գտնում: Դուք տեղադրե՞լ եք TamTamEdit - ը:"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Դրոշմի հատկանիշները"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr ""
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Ռետինի հատկանիշները"
+#: pippy_app.py:97
+msgid "math"
+msgstr ""
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Դույլի հատկանիշները"
+#: pippy_app.py:97
+msgid "python"
+msgstr ""
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Ընտրիչի հատկանիշները"
+#: pippy_app.py:97
+msgid "sound"
+msgstr ""
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Ընտրել տարածքը"
+#: pippy_app.py:98
+msgid "string"
+msgstr ""
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr ""
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr ""
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr ""
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr ""
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr ""
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr ""
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr ""
+
+#: pippy_app.py:228
 msgid "Edit"
 msgstr "Խմբագրել"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Ձևերի հատկանիշները"
+#: pippy_app.py:242
+msgid "View"
+msgstr ""
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Ձևեր"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr ""
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Տառատեսակները"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "մեկնարկիր!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Պատկեր"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>r"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Ետարկել"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Կանգ"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Կրկին կատարել"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Պատճենել"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Փակցնել"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "Մաքրել"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Միացնել ձայնը"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Անջատել ձայնը"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr ""
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Վրձին"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Իմ օրինակները"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Ռետին"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr ""
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Դույլ"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s Գործունեություն"
 
-# Սելեկտոր
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Ընտրիչ"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr ""
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Դրոշմ"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Ներկրել դրոշմը"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr ""
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Լիցք"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr ""
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Կողմեր. "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr ""
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Էլիպս"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr ""
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Ուղղանկյուն"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr ""
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Գիծ"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Հիշել որպես գործունեության խափանում"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Ազատ գիծ"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Տվեք Ձեր գործունեությանն իմաստալից անվանում` մինչև այն որպես գործունեություն "
+"պահպանելը:"
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Բազմանկյուն"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "OK"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Սիրտ"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr ""
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Զուգահեռագիծ"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr ""
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Սլաք"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Գործունեություների փաթեթի ստեղծում..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Աստղ"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Պիպպիի գործունեություն"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Սեղան"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr ""
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Եռանկյուն"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Տպել"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Պահպանել որպես Օրինակի Սխալ"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Զետեղել պատկեր"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Տվեք Ձեր գործունեությանը իմաստալից անվանում` մինչև այն որպես օրինակ "
+"պահպանելը:"
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Շրջել Ձախ"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Օրինակի ստեղծում..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Շրջել Աջ"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Պահպանել որպես նախազգուշացման օրինակ:"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Հորիզոնական հայելի"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Այս օրինակն արդեն կա: Ուզո՞ւմ եք այն փոխարինել նորով:"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Ուղղահայաց հայելի"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Պահպանված է որպես օրինակ:"
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Գորշասանդղակ"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr ""
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Ծիածան"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Գործունեությունը պահված է մատյանում:"
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Խճանկար"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr ""
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Հակադարձել Գույները"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr ""
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Պատրաստ է"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr ""
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Ընտրել դրոշմը"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr ""
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Ընտրել տառատեսակը"
-
-#~ msgid "Height"
-#~ msgstr "Բարձրություն"
-
-#~ msgid "Width"
-#~ msgstr "Լայնք"
-
-#~ msgid "Choose image"
-#~ msgstr "Ընտրել պատկերը"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "ԴԱԴԱՐԵՑՎԱԾ"

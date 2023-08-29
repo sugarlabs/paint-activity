@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-02-17 19:22+0000\n"
-"Last-Translator: Soori <mbarzegar82@gmail.com>\n"
+"PO-Revision-Date: 2017-03-18 22:05+0000\n"
+"Last-Translator: Chris <cjl@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -16,325 +16,284 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1487359355.000000\n"
+"X-POOTLE-MTIME: 1489874735.000000\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "نقاشی"
+msgid "Pippy"
+msgstr ""
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"پیکاسو؟ ون گوگ؟ شما می توانید روزی یکی از آنها شوید! فقط روح هنرمندی که در "
-"درون شماست را آزاد کنید. سپس هرآنچه را در ذهن خود می پروراندی به نقاشی های "
-"زیبا تبدیل کن."
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "اندازه: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr ""
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "تاری: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "دایره"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr ""
 
-#: widgets.py:17
-msgid "Square"
-msgstr "مربع"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr ""
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "انتخاب خواص برس"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr ""
 
-#: widgets.py:234
-msgid "Size"
-msgstr "اندازه"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr ""
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "تاری"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr ""
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "شکل"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr ""
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "نگه داشتن"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr ""
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "خواص برش"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr ""
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "خواص مهر"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr ""
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "خواص پاک کن"
+#: pippy_app.py:97
+msgid "math"
+msgstr ""
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "خواص سطل"
+#: pippy_app.py:97
+msgid "python"
+msgstr ""
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "خواص جمع کننده"
+#: pippy_app.py:97
+msgid "sound"
+msgstr ""
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "انتخاب منطقه"
+#: pippy_app.py:98
+msgid "string"
+msgstr ""
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr ""
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr ""
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr ""
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr ""
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr ""
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr ""
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr ""
+
+#: pippy_app.py:228
 msgid "Edit"
-msgstr "ویرایش"
+msgstr ""
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "ویژگی‌های به اشتراک‌گذاری"
+#: pippy_app.py:242
+msgid "View"
+msgstr ""
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "اشکال"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr ""
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "قلم‌ها"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "بران"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "تصویر"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr ""
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "بی‌اثر کردن"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr ""
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "دوباره"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr ""
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "کپی"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "چسباندن"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
-msgstr "پاک کردن"
+msgstr ""
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "فعال کردن صدا"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr ""
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "غیر فعال کردن صدا"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr ""
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "قلم‌مو"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr ""
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "پاک کن"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr ""
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "سطل"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s فعالیت"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "جمع کننده"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr ""
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "مهر"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "تمبر باز"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr ""
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "پر کردن"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr ""
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "کناره‌ها: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr ""
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "بیضی"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr ""
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "مستطیل"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr ""
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "خط"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "بحیث یک اشتباه فعالیتی ثبت شود"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "فرم آزاد"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr "لطفاً فغالیت خود را قبل از ثبت آن بحیث یک فعالیت یک نام پرمعنی بدهید."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "چند گوشه"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "درست است"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "قلب"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr ""
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "متوازی‌الاضلاع"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr ""
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "پیکان"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "در حال ساختن مجموعه فعالیتی..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "ستاره"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr ""
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "ذوزنقه"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr ""
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "مثلث"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "نوع"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr ""
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "جا دادن تصویر"
+#: pippy_app.py:912
+#, fuzzy
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr "لطفاً فغالیت خود را قبل از ثبت آن بحیث یک فعالیت یک نام پرمعنی بدهید."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "چرخش به چپ"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr ""
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "چرخش به راست"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr ""
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "آینه افقی"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr ""
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "آینه عمودی"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr ""
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "تناسب خاکستری"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr ""
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "رنگین کمان"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "فعالیت بحیث یک یادداشت ثبت گردید."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "لوله شکل نما"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr ""
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "وارونه کردن رنگها"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr ""
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "انجام شد"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr ""
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "انتخاب مهر"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr ""
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "انتخاب قلم"
-
-#~ msgid "Kalidoscope"
-#~ msgstr "زیبابین"
-
-#~ msgid "Height"
-#~ msgstr "بلندی"
-
-#~ msgid "Width"
-#~ msgstr "پهنا"
-
-#~ msgid "Choose image"
-#~ msgstr "انتخاب تصویر"
-
-#~ msgid "Tools"
-#~ msgstr "ابزار"
-
-#~ msgid "Text"
-#~ msgstr "متن"
-
-#~ msgid "Effects"
-#~ msgstr "جلوه‌ها"
-
-#~ msgid "Stroke Color"
-#~ msgstr "رنگ روکش"
-
-#~ msgid "Pencil"
-#~ msgstr "مداد"
-
-#~ msgid "Fill Color"
-#~ msgstr "رنگ پر کردن"
-
-#~ msgid "Points: "
-#~ msgstr "نقاط:ـ"
-
-#~ msgid "1000"
-#~ msgstr "۱۰۰۰"
-
-#~ msgid "500"
-#~ msgstr "۵۰۰"
-
-#~ msgid "200"
-#~ msgstr "۲۰۰"
-
-#~ msgid "150"
-#~ msgstr "۱۵۰"
-
-#~ msgid "100"
-#~ msgstr "۱۰۰"
-
-#~ msgid "50"
-#~ msgstr "۵۰"
-
-#~ msgid "25"
-#~ msgstr "۲۵"
-
-#~ msgid "10"
-#~ msgstr "۱۰"
-
-#~ msgid "ZOOM +"
-#~ msgstr "بزرگنمایی +"
-
-#~ msgid "ZOOM -"
-#~ msgstr "کوچکنمایی -"
-
-#~ msgid "Rectangular Marquee"
-#~ msgstr "سایبان مستطیل شکل"
-
-#~ msgid "Tool Color"
-#~ msgstr "ابزار رنگ"
-
-#~ msgid "Fill Color: "
-#~ msgstr "رنگ پر کردن:ـ"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "مکث شده"

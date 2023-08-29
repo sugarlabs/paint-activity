@@ -2,14 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-03-14 03:52+0000\n"
-"Last-Translator: Chris <cjl@sugarlabs.org>\n"
+"PO-Revision-Date: 2017-05-16 09:21+0000\n"
+"Last-Translator: Olot <agwanta2004@yahoo.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ach\n"
 "MIME-Version: 1.0\n"
@@ -17,252 +16,291 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1489463546.000000\n"
+"X-POOTLE-MTIME: 1494926467.000000\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Dawa"
+msgid "Pippy"
+msgstr "Pippi"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Picasso? Van Gogh? In i twero bedo moo i kingi! Wek dong lagoo cal ma i yii "
-"obed agonya. Lok cal magi ki i wii wek dwok ling maleng."
+"Tye kayenyo luteka me goyo purugram! Itwere tic ki lapor kany wek i cak "
+"nongo ngec mabup ma kompiuta ni twero nyang maber kilwongo ''nyalo.''"
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Cajji: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr "Yer lapor acel wek yab"
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Lengone: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr "Tye kadonyo i tic..."
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Alawala"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr "Tim ber i kur pi kube..."
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Gwic angwen"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr "Tye kadugo tic maonongo ginywako..."
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Yer jami pa lajwac"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr "Deng ie"
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Caji"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr "Deng woko"
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Lengone"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s Kama oaa ie"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Kite"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr "Yer boc acel"
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Bed ki neno matut"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr "Kama fayil Manyen oaa ie %d"
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Jami pa lajwac"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr "Pe onongo twero nongo kagwoko dwon me TamTamEdit. Iketo TamTamEdit?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Jami pa stamp"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr "goc mapol"
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Jami pa gin yweyone"
+#: pippy_app.py:97
+msgid "math"
+msgstr "cura"
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Jami pa baket"
+#: pippy_app.py:97
+msgid "python"
+msgstr "nyalo"
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Jami pa ngat makwanyo"
+#: pippy_app.py:97
+msgid "sound"
+msgstr "dwon"
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Yer Kabedo"
+#: pippy_app.py:98
+msgid "string"
+msgstr "tol"
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr "pwonyere"
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr "Kel Python pail itab manyen"
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr "Cwal acalo Pippy dokiomen"
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr "Gwok pail ni iPippy library"
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr "Cwal acalo lanyut Pippy manyen"
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr "Yik idur me gin atima a sugar "
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr "Cwal acalo iboc me a distutils "
+
+#: pippy_app.py:228
 msgid "Edit"
-msgstr "Yub"
+msgstr "Yiki"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Jami pa kitgi"
+#: pippy_app.py:242
+msgid "View"
+msgstr "Neni"
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Kitgi"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr "Nyut kan ame kato iye"
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Caji"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Ngweci!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Cale"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>r"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Tim ku"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Cungi"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Tim odoco"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kobi"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Dac"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
-msgstr "Ywee"
+msgstr "Jwa"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Wek dwon winye"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Juk dwon woko"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr "Yab lanyut ne"
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Lajwac"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Lanyuta"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Jwaa woko"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr "Kan oko gicwalo ooko"
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Baket"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s Gin me atima"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Ngat makwanyo"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr "Python pail omedo i library"
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Stamp"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
+"Pail iyero otyeko medo i library. Ti kede \"import {import name}\" me kelo "
+"library me keto itic."
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Ket stamp"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr "Otyeko gwoko"
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Pong"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr "Dokiomen no otyeko gwoko i janol."
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Teng: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr "Bal me omo Python pail"
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Lapim borpiny"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr "Pail ame iyero pe obedo Python pail."
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Gwic angwen"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr "Pail ame iyero dong oyabere oko"
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Rek"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Gwok acalo Bal ikom Gin me atia"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Fom me nono"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Myero imi gin itimo nying ateloke tye ame pwodi igwoko acalo gin ame itimo."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Romgi/poligon"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "Ok"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Lacwiny"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr "Alama me gin atima"
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Tirne"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr "Myero iyer alama me gin atima."
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Atero"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Yiko iboc me gin atima..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Lacer"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Gin atima me Pippy"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Twoke tir angwen"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr "Gwok acalo iboc me bal me distutils"
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Twoke adek"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
+"Myero imi tici nying ateloke tye maber ame pwod ru itemo me gwoko acalo iboc "
+"me distutils."
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Goo"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Gwok macalo Lanyut me Bal"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Roo Cal"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Myero imi tici nying ateloke ber ame pwod ru itemo me gwoko macalo lanyut."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Wir idwok lacam"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Tye kayiko lanyut..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Wir i dwok lacem"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Gwok macalo Lok me angea pa Lanyut"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Kio ma Ocung tir"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Lanyuti dong tye. Imito coyo gin mukene iwie?"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Kio ma obuto abuta"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Ogwoko acalo lanyut."
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Grayscale"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr "Bal igwoko tic me atima i janol."
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Ataloka"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Tic me atima ogwoko oko i janol."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kaleidoscope"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr "Bal"
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Lok Rangi acilalic"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr "Bal ikwano ngec omio."
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Otyeko"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr "Tye atic..."
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Yer stamp"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr "otum!"
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Yer caji"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "OCUNG"

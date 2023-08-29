@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-02-17 10:45+0000\n"
-"Last-Translator: dark159123 <r.j.hansen@protonmail.com>\n"
+"PO-Revision-Date: 2018-10-22 18:23+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -16,318 +16,294 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1487328337.000000\n"
+"X-POOTLE-MTIME: 1540232583.000000\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Mal"
+msgid "Pippy"
+msgstr "Pippy"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
-"free. Transform images in your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the "
+"language your computer understands called \"Python.\""
 msgstr ""
-"Picasso? Van Gogh? Du kan blive til én af dem! Sæt blot din indre kunstner "
-"fri. Omform billeder i din bevidsthed til smukke malerier."
+"Søger efter programmører! Her kan du bruge eksempler for at begynde at lære "
+"sproget som din computer forstår, kaldet \"Python\"."
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Størrelse: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr "Vælg et eksempel som skal åbnes"
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Uigennemsigtighed: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr "Deltager i aktivitet..."
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Cirkel"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr "Vent venligst på forbindelsen..."
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Kvadrat"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr "Genoptager delt aktivitet..."
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Vælg egenskaber for pensel"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr "Zoom ind"
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Størrelse"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr "Zoom ud"
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Uigennemsigtighed"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "%s Kilde"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Form"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr "Vælg et ikon"
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Bevar aspekt"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr "Ny kildefil %d"
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Egenskaber for pensel"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr ""
+"Kan ikke finde lydbiblioteket for TamTamEdit. Har du installeret TamTamEdit?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Egenskaber for stempel"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr "grafik"
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Egenskaber for viskelæder"
+#: pippy_app.py:97
+msgid "math"
+msgstr "matematik"
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Egenskaber for spand"
+#: pippy_app.py:97
+msgid "python"
+msgstr "python"
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Egenskaber for valgfunktion"
+#: pippy_app.py:97
+msgid "sound"
+msgstr "lyd"
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Markér område"
+#: pippy_app.py:98
+msgid "string"
+msgstr "streng"
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr "vejledninger"
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr "Importér Python-fil til nye faneblad"
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr "Eksportér som Pippy-dokument"
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr "Gem filen til Pippy-biblioteket"
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr "Eksportér som nyt Pippy-eksempel"
+
+#: pippy_app.py:211
+msgid "Create a Sugar activity bundle"
+msgstr "Opret en Sugar-aktivitspakke"
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr "Eksportér som en distutils-pakke"
+
+#: pippy_app.py:228
 msgid "Edit"
 msgstr "Redigér"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Egenskaber for former"
+#: pippy_app.py:242
+msgid "View"
+msgstr "Vis"
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Former"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr "Vis outputpanel"
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Skrifttyper"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Kør!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Billede"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>k"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Fortryd"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Stop"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Omgør"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kopiér"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Indsæt"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "Ryd"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Slå lyd til"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>r"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Slå lyd fra"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr "Åbn et eksempel"
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Pensel"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Mine eksempler"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Viskelæder"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr "Skjul outputpanel"
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Spand"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "%s Aktivitet"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Udvælgelse"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr "Python-fil blev tilføjet til bibliotek"
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Stempel"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import "
+"{importname}\" to import the library for using."
+msgstr ""
+"Filen du har valgt er blevet tilføjet til biblioteket. Brug \"import "
+"{importname}\" til at importere biblioteket for at bruge det."
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Indlæs stempel"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr "Gemt"
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Fyld"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr "Dokumentet er blevet gemt til journalen."
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Sider: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr "Fejl ved import af Python-fil"
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Ellipse"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr "Filen du valgte er ikke en Python-fil."
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Rektangel"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr "Filen du valgte er allerede åben"
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Linje"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Gem som aktivitetsfejl"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Fri form"
+#: pippy_app.py:768
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an activity."
+msgstr ""
+"Giv venligst din aktivitet et meningsfuldt navn før du forsøger at gemme det "
+"som en aktivitet."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Polygon"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "Ok"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Hjerte"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr "Aktivitetsikon"
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Parallelogram"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr "Vælg venligst et aktivitsikon."
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Pil"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Opretter aktivitetsbundt..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Stjerne"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Pippy-aktivitet"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Trapez"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr "Fejl ved gem som distutils-pakke"
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Trekant"
+#: pippy_app.py:869
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an distutils package."
+msgstr ""
+"Giv venligst din aktivitet et meningsfyldt navn inden du forsøger at gemme "
+"den som en distutils-pakke."
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Type"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Gem som Eksempel-fejl"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Indsæt billede"
+#: pippy_app.py:912
+msgid ""
+"Please give your activity a meaningful name before attempting to save it as "
+"an example."
+msgstr ""
+"Giv venligst din aktivitet et meningsfuldt navn før du forsøger at gemme det "
+"som et eksempel."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Rotér til venstre"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Opretter eksempel..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Rotér til højre"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Gem som Eksempel-advarsel"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Spejlvend vandret"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Dette eksempel eksisterer allerede. Ønsker du at overskrive det?"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Spejlvend lodret"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Gemt som eksempel."
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Gråskala"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr "Fejl ved forsøg på at gemme aktivitet til journal."
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Regnbue"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Aktivitet gemt i journal."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kalejdoskop"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr "Fejl"
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Invertér farver"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr "Fejl ved læsning af data."
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Færdig"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr "Arbejder..."
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Vælg stempel"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr "færdig!"
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Vælg skrifttype"
-
-#~ msgid "Kalidoscope"
-#~ msgstr "kalejdoskop"
-
-#~ msgid "Height"
-#~ msgstr "Højde"
-
-#~ msgid "Width"
-#~ msgstr "Bredde"
-
-#~ msgid "Choose image"
-#~ msgstr "Vælg billede"
-
-#~ msgid "Tools"
-#~ msgstr "Værktøjer"
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
-
-#~ msgid "Effects"
-#~ msgstr "Effekter"
-
-#~ msgid "Stroke Color"
-#~ msgstr "Farve på strøg"
-
-#~ msgid "Pencil"
-#~ msgstr "Blyant"
-
-#~ msgid "Fill Color"
-#~ msgstr "Fyldfarve"
-
-#~ msgid "Points: "
-#~ msgstr "Punkter: "
-
-#~ msgid "Keep Aspect"
-#~ msgstr "Bevar aspekt"
-
-#~ msgid "1000"
-#~ msgstr "1000"
-
-#~ msgid "500"
-#~ msgstr "500"
-
-#~ msgid "200"
-#~ msgstr "200"
-
-#~ msgid "150"
-#~ msgstr "150"
-
-#~ msgid "100"
-#~ msgstr "100"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "25"
-#~ msgstr "25"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid "ZOOM +"
-#~ msgstr "ZOOM +"
-
-#~ msgid "ZOOM -"
-#~ msgstr "ZOOM -"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "PÅ PAUSE"

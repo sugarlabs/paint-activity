@@ -1,12 +1,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Paint package.
+# This file is distributed under the same license as the Pippy package.
 # Božidar Putanec <bozidarp@yahoo.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: Paint\n"
+"Project-Id-Version: Pippy\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-05-16 14:58-0700\n"
+"PO-Revision-Date: 2017-05-16 14:59-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <LL@li.org>\n"
 "Language: hr\n"
@@ -16,249 +16,276 @@ msgstr ""
 "X-Generator: Poedit 2.0.1\n"
 
 #: activity/activity.info:2
-msgid "Paint"
-msgstr "Bojamo"
+msgid "Pippy"
+msgstr "Pippy"
 
 #: activity/activity.info:3
 msgid ""
-"Picasso? Van Gogh? You can be any of them! Just let the artist inside you free. Transform images in "
-"your mind to beautiful paintings."
+"Searching for programmers! Here you can use examples to begin learning the language your computer understands "
+"called \"Python.\""
 msgstr ""
-"Picasso? Van Gogh? Možeš biti bilo koji od njih! Oslobodi umjetnika u sebi i prenesi svoja maštanja "
-"na platno."
+"Tražimo programere! Ovdje su primjeri na kojima možeš započeti učiti jezik koji tvoje računalo razumije, a zove se "
+"„Python“."
 
-#: widgets.py:17
-msgid "Size: "
-msgstr "Veličina: "
+#: filedialog.py:79
+msgid "Choose an example to open"
+msgstr "Odaberi primjer za učitavanje"
 
-#: widgets.py:17
-msgid "Opacity: "
-msgstr "Neprozirnost: "
+#: collabwrapper.py:178
+msgid "Joining activity..."
+msgstr "Pridruživanje aktivnosti..."
 
-#: widgets.py:17
-msgid "Circle"
-msgstr "Kružnica"
+#: collabwrapper.py:179 collabwrapper.py:191
+msgid "Please wait for the connection..."
+msgstr "Pričekaj na povezivanje..."
 
-#: widgets.py:17
-msgid "Square"
-msgstr "Kvadrat"
+#: collabwrapper.py:190
+msgid "Resuming shared activity..."
+msgstr "Nastavljanje zajedničke aktivnosti..."
 
-#: widgets.py:31
-msgid "Choose brush properties"
-msgstr "Odaberi kist"
+#: toolbars.py:42
+msgid "Zoom in"
+msgstr "Povećavanje"
 
-#: widgets.py:234
-msgid "Size"
-msgstr "Veličina"
+#: toolbars.py:48
+msgid "Zoom out"
+msgstr "Smanjivanje"
 
-#: widgets.py:248
-msgid "Opacity"
-msgstr "Neprozirnost"
+#: activity.py:65
+#, python-format
+msgid "%s Source"
+msgstr "Izvorni kȏd %s"
 
-#: widgets.py:273
-msgid "Shape"
-msgstr "Oblik"
+#: icondialog.py:116
+msgid "Select an icon"
+msgstr "Odaberi ikonu"
 
-#: widgets.py:279 toolbox.py:535
-msgid "Keep aspect"
-msgstr "Zadrži aspekt"
+#: notebook.py:219
+#, python-format
+msgid "New Source File %d"
+msgstr "Nova izvorna datoteka %d"
 
-#: widgets.py:304
-msgid "Brush properties"
-msgstr "Svojstva kista"
+#: sound_check.py:27 library/pippy/sound.py:41
+msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+msgstr "Zvučnu biblioteku TamTamEdit nije moguće naći. Instalirao si TamTamEdit?"
 
-#: widgets.py:310
-msgid "Stamp properties"
-msgstr "Svojstva pečata"
+#: pippy_app.py:97
+msgid "graphics"
+msgstr "grafika"
 
-#: widgets.py:314
-msgid "Eraser properties"
-msgstr "Svojstva gumice"
+#: pippy_app.py:97
+msgid "math"
+msgstr "matematika"
 
-#: widgets.py:317
-msgid "Bucket properties"
-msgstr "Svojstva kantice"
+#: pippy_app.py:97
+msgid "python"
+msgstr "python"
 
-#: widgets.py:319
-msgid "Picker properties"
-msgstr "Svojstva kapaljke"
+#: pippy_app.py:97
+msgid "sound"
+msgstr "zvuk"
 
-#: widgets.py:321 toolbox.py:410
-msgid "Select Area"
-msgstr "Odaberi područje"
+#: pippy_app.py:98
+msgid "string"
+msgstr "string"
 
-#: toolbox.py:141
+#: pippy_app.py:98
+msgid "tutorials"
+msgstr "priručnici"
+
+#: pippy_app.py:185
+msgid "Import Python file to new tab"
+msgstr "Uvezi (import) Python datoteku u novu karticu"
+
+#: pippy_app.py:191
+msgid "Export as Pippy document"
+msgstr "Izvezi (eksport) kao Pippy dokument"
+
+#: pippy_app.py:197
+msgid "Save this file to the Pippy library"
+msgstr "Spremi ovu datoteku u Pippy biblioteku"
+
+#: pippy_app.py:205
+msgid "Export as new Pippy example"
+msgstr "Izvezi (eksport) kao novi Pippy primjer"
+
+#: pippy_app.py:211
+msgid "Create activity bundle"
+msgstr "Stvori paket aktivnosti za Sugar"
+
+#. TRANS: A distutils package is used to distribute Python modules
+#: pippy_app.py:218
+msgid "Export as a distutils package"
+msgstr "Izvezi (eksport) kao distutils paket"
+
+#: pippy_app.py:228
 msgid "Edit"
 msgstr "Uredi"
 
-#: toolbox.py:145
-msgid "Shapes properties"
-msgstr "Svojstva oblika"
+#: pippy_app.py:242
+msgid "View"
+msgstr "Pregled"
 
-#: toolbox.py:161
-msgid "Shapes"
-msgstr "Oblici"
+#: pippy_app.py:252 pippy_app.py:500
+msgid "Show output panel"
+msgstr "Otvori okno za izlazne rezultate"
 
-#: toolbox.py:177
-msgid "Fonts"
-msgstr "Tipovi slova"
+#: pippy_app.py:265 pippy_app.py:268
+msgid "Run!"
+msgstr "Izvrši!"
 
-#: toolbox.py:183
-msgid "Image"
-msgstr "Slika"
+#: pippy_app.py:266
+msgid "<alt>r"
+msgstr "<alt>r"
 
-#: toolbox.py:251
-msgid "Undo"
-msgstr "Poništi zadnju radnju"
+#: pippy_app.py:281 pippy_app.py:287
+msgid "Stop"
+msgstr "Stop"
 
-#: toolbox.py:252
-msgid "Redo"
-msgstr "Ponovi poništeno"
+#: pippy_app.py:282
+msgid "<alt>s"
+msgstr "<alt>s"
 
-#: toolbox.py:253
-msgid "Copy"
-msgstr "Kopiraj"
-
-#: toolbox.py:254
-msgid "Paste"
-msgstr "Zalijepi"
-
-#: toolbox.py:262
+#: pippy_app.py:297 pippy_app.py:303
 msgid "Clear"
 msgstr "Izbriši"
 
-#: toolbox.py:266 toolbox.py:327
-msgid "Enable sound"
-msgstr "Uključi zvuk"
+#: pippy_app.py:298
+msgid "<alt>c"
+msgstr "<alt>c"
 
-#: toolbox.py:325
-msgid "Disable sound"
-msgstr "Isključi zvuk"
+#: pippy_app.py:314
+msgid "Open an example"
+msgstr "Učitaj jedan od primjera"
 
-#: toolbox.py:377 toolbox.py:381
-msgid "Brush"
-msgstr "Kist"
+#: pippy_app.py:389
+msgid "My examples"
+msgstr "Moji primjeri"
 
-#: toolbox.py:384
-msgid "Eraser"
-msgstr "Gumica"
+#: pippy_app.py:496
+msgid "Hide output panel"
+msgstr "Zatvori okno za izlazne rezultate"
 
-#: toolbox.py:387
-msgid "Bucket"
-msgstr "Kantica"
+#: pippy_app.py:598
+#, python-format
+msgid "%s Activity"
+msgstr "Aktivnost %s"
 
-#: toolbox.py:390
-msgid "Picker"
-msgstr "Kapaljka za biranje boje"
+#: pippy_app.py:708
+msgid "Python File added to Library"
+msgstr "Python datoteka dodana je biblioteci"
 
-#: toolbox.py:393
-msgid "Stamp"
-msgstr "Pečat"
+#: pippy_app.py:709
+#, python-brace-format
+msgid ""
+"The file you selected has been added to the library. Use \"import {importname}\" to import the library for using."
+msgstr ""
+"Datoteku koju si odabrao već je biblioteci. Rabi naredbu „import {importname}“ da uvezeš biblioteku za upotrebu."
 
-#: toolbox.py:400
-msgid "Load stamp"
-msgstr "Učitaj pečat"
+#: pippy_app.py:719
+msgid "Saved"
+msgstr "Spremljeno"
 
-#: toolbox.py:529
-msgid "Fill"
-msgstr "Ispuna"
+#: pippy_app.py:720
+msgid "The document has been saved to journal."
+msgstr "Dokument je spremljen u dnevnik."
 
-#: toolbox.py:552
-msgid "Sides: "
-msgstr "Stranice: "
+#: pippy_app.py:734 pippy_app.py:741
+msgid "Error importing Python file"
+msgstr "Pogreška pri uvozu Python datoteke"
 
-#: toolbox.py:621
-msgid "Ellipse"
-msgstr "Elipsa"
+#: pippy_app.py:735
+msgid "The file you selected is not a Python file."
+msgstr "Datoteka koju si odabrao nije Python datoteka."
 
-#: toolbox.py:624
-msgid "Rectangle"
-msgstr "Pravokutnik"
+#: pippy_app.py:742
+msgid "The file you selected is already open"
+msgstr "Datoteka koju si odabrao već je učitana"
 
-#: toolbox.py:627
-msgid "Line"
-msgstr "Crta"
+#: pippy_app.py:767 pippy_app.py:826
+msgid "Save as Activity Error"
+msgstr "Spremi kao grešku u Aktivnosti"
 
-#: toolbox.py:630
-msgid "Free form"
-msgstr "Prostoručno crtanje"
+#: pippy_app.py:768
+msgid "Please give your activity a meaningful name before attempting to save it as an activity."
+msgstr "Prije nego pokušaš spremiti svoju aktivnost trebaš joj dati smisleno ime."
 
-#: toolbox.py:633
-msgid "Polygon"
-msgstr "Poligon"
+#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
+msgid "Ok"
+msgstr "U redu"
 
-#: toolbox.py:636
-msgid "Heart"
-msgstr "Srce"
+#: pippy_app.py:779
+msgid "Activity icon"
+msgstr "Ikona za Aktivnost"
 
-#: toolbox.py:639
-msgid "Parallelogram"
-msgstr "Paralelogram"
+#: pippy_app.py:780
+msgid "Please select an activity icon."
+msgstr "Odaberi ikonu za aktivnost."
 
-#: toolbox.py:642
-msgid "Arrow"
-msgstr "Strelica"
+#: pippy_app.py:785 pippy_app.py:800
+msgid "Creating activity bundle..."
+msgstr "Stvaranje paketa aktivnosti..."
 
-#: toolbox.py:645
-msgid "Star"
-msgstr "Zvijezda"
+#: pippy_app.py:866 pippy_app.py:908
+msgid "Pippy Activity"
+msgstr "Aktivnost Pippy"
 
-#: toolbox.py:648
-msgid "Trapezoid"
-msgstr "Trapezoid"
+#: pippy_app.py:868
+msgid "Save as distutils package error"
+msgstr "Spremi kao distutils paketa grešku"
 
-#: toolbox.py:651
-msgid "Triangle"
-msgstr "Trokut"
+#: pippy_app.py:869
+msgid "Please give your activity a meaningful name before attempting to save it as an distutils package."
+msgstr "Prije nego pokušaš spremiti svoju aktivnost kao distutils paket trebaš joj dati smisleno ime."
 
-#: toolbox.py:685
-msgid "Type"
-msgstr "Vrsta"
+#: pippy_app.py:910
+msgid "Save as Example Error"
+msgstr "Spremi kao primjer greške"
 
-#: toolbox.py:777
-msgid "Insert Image"
-msgstr "Umetni sliku"
+#: pippy_app.py:912
+msgid "Please give your activity a meaningful name before attempting to save it as an example."
+msgstr "Prije nego pokušaš spremiti svoju aktivnost kao primjer trebaš joj dati smisleno ime."
 
-#: toolbox.py:789
-msgid "Rotate Left"
-msgstr "Rotiraj nalijevo"
+#: pippy_app.py:921
+msgid "Creating example..."
+msgstr "Stvaranje primjera..."
 
-#: toolbox.py:793
-msgid "Rotate Right"
-msgstr "Rotiraj nadesno"
+#: pippy_app.py:927
+msgid "Save as Example Warning"
+msgstr "Spremi kao primjer upozorenja"
 
-#: toolbox.py:798
-msgid "Horizontal Mirror"
-msgstr "Obrni vodoravno"
+#: pippy_app.py:928
+msgid "This example already exists. Do you want to overwrite it?"
+msgstr "Ovaj primjer već postoji. Želiš ga prebrisati?"
 
-#: toolbox.py:803
-msgid "Vertical Mirror"
-msgstr "Obrni okomito"
+#: pippy_app.py:935 pippy_app.py:993
+msgid "Saved as example."
+msgstr "Spremi kao primjer."
 
-#: toolbox.py:811
-msgid "Grayscale"
-msgstr "Sivi tonovi"
+#: pippy_app.py:957
+msgid "Error saving activity to journal."
+msgstr "Dogodila se greška pri spremanju aktivnosti u dnevnik."
 
-#: toolbox.py:816
-msgid "Rainbow"
-msgstr "Dúga"
+#: pippy_app.py:977
+msgid "Activity saved to journal."
+msgstr "Aktivnost je spremljena u dnevnik."
 
-#: toolbox.py:821
-msgid "Kaleidoscope"
-msgstr "Kaleidoskop"
+#: pippy_app.py:1119
+msgid "Error"
+msgstr "Greška"
 
-#: toolbox.py:825
-msgid "Invert Colors"
-msgstr "Obrni boje"
+#: pippy_app.py:1120
+msgid "Error reading data."
+msgstr "Dogodila se greška pri čitanju podataka."
 
-#: dialogs.py:100
-msgid "Done"
-msgstr "Gotovo"
+#: pippy_app.py:1448
+msgid "Working..."
+msgstr "Radimo..."
 
-#: dialogs.py:128
-msgid "Select stamp"
-msgstr "Odaberi pečat"
+#: pippy_app.py:1451
+msgid "done!"
+msgstr "gotovo!"
 
-#: fontcombobox.py:90
-msgid "Select font"
-msgstr "Odaberi tip slova"
+#: library/pippy/game.py:36
+msgid "PAUSED"
+msgstr "ZAUSTAVLJENO"
