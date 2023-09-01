@@ -7,319 +7,328 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2012-10-14 03:44+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2017-02-21 10:52+0000\n"
+"Last-Translator: EdgarQuispeChambi <equispe7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ayc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1487674328.000000\n"
 
-#  "Peppy"
+#  "Pintar"
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "Peppy"
+msgid "Paint"
+msgstr "Samichaña"
 
+# Picasso  con doble SS. Inclusive para el español.
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
+"¿Picasso? ¿Van Gogh? ¡Jumaxa jupanakjama k'acha samichirïsmawa! Chuymamatha "
+"k'acha samichaña kamana kankañama uñt'ayma. P'iqimana kuna jamutamsa suma "
+"jamuqawinakaru tukuyma."
 
-#: filedialog.py:79
-msgid "Choose an example to open"
-msgstr ""
+#  "Tamaño: "
+#: widgets.py:17
+msgid "Size: "
+msgstr "Taña: "
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
-msgstr ""
+# Chharpu 'opaco' (Saturnino Callo)
+#: widgets.py:17
+msgid "Opacity: "
+msgstr "Chharpu kankaña: "
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
-msgstr ""
+#  "Círculo"
+#: widgets.py:17
+msgid "Circle"
+msgstr "Muyu"
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
-msgstr ""
+#  "Cuadrado"
+#: widgets.py:17
+msgid "Square"
+msgstr "Pusiq'achi"
 
-#: toolbars.py:42
-msgid "Zoom in"
-msgstr ""
+#  "Elija las propiedades del pincel"
+#: widgets.py:31
+msgid "Choose brush properties"
+msgstr "Samiphuyuna kunaymana lurañapa ajllma"
 
-#: toolbars.py:48
-msgid "Zoom out"
-msgstr ""
+#: widgets.py:234
+msgid "Size"
+msgstr "Taña"
 
-#  "%s Fuente"
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "%s Tunu"
+#: widgets.py:248
+msgid "Opacity"
+msgstr "Chharpu kankaña"
 
-#: icondialog.py:116
-msgid "Select an icon"
-msgstr ""
+#  "Forma"
+#: widgets.py:273
+msgid "Shape"
+msgstr "Kunjama kankaña"
 
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
-msgstr ""
+#  "Mantener relación de aspecto"
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
+msgstr "Uñanaqapana katxäsiña"
 
-#  "No se pudo encontrar la librería de audio de la Actividad TamTamEdit. ¿Ha "
-#  "instalado la Actividad TamTamEdit?"
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
-msgstr "Tam TamEdit istañanaka jani utkiti. ¿Tam TamEdit uchastati?"
+#  "Propiedades del pincel"
+#: widgets.py:304
+msgid "Brush properties"
+msgstr "Samiphuyuna wakisirinakapa"
 
-#: pippy_app.py:97
-msgid "graphics"
-msgstr ""
+#  "Propiedades de los sellos"
+#: widgets.py:310
+msgid "Stamp properties"
+msgstr "Liq'xatiri chimpuñana wakisirinakapa"
 
-#: pippy_app.py:97
-msgid "math"
-msgstr ""
+# "Propiedades del pincel"
+#: widgets.py:314
+msgid "Eraser properties"
+msgstr "Yant'awina wakisirinakapa"
 
-#: pippy_app.py:97
-msgid "python"
-msgstr ""
+#: widgets.py:317
+msgid "Bucket properties"
+msgstr "Waltina wakisirinakapa"
 
-#: pippy_app.py:97
-msgid "sound"
-msgstr ""
+# "Propiedades del pincel"
+#: widgets.py:319
+msgid "Picker properties"
+msgstr "Ajllirina wakisirinakapa"
 
-#: pippy_app.py:98
-msgid "string"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr ""
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr ""
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr ""
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr ""
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr ""
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr ""
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr ""
+#  "Área seleccionada"
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
+msgstr "Lakita chiqa"
 
 #  "Editar"
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
-msgstr "Chiqachaña"
+msgstr "Askichaña"
 
-#: pippy_app.py:242
-msgid "View"
-msgstr ""
+# RAE: 3. f. Atributo o cualidad esencial de alguien o algo.
+#: toolbox.py:145
+msgid "Shapes properties"
+msgstr "Kunjama kankañana wakisirinakapa"
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
-msgstr ""
+#  "Formas"
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "Kunaymana kankañanaka"
 
-# "¡_Empieza!"
-#: pippy_app.py:265 pippy_app.py:268
-msgid "Run!"
-msgstr "¡Jasma!"
+#  "Fuentes"
+#: toolbox.py:177
+msgid "Fonts"
+msgstr "Qillqanaka kankañanakapa"
 
-#  "<alt>r"
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#  "Imagen"
+#: toolbox.py:183
+msgid "Image"
+msgstr "Jamuqa"
 
-# "_Parar"
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "Sayt'ayaña"
+#  "Deshacer"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "Kutirayaña"
 
-#  "<alt>s"
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#  "Rehacer"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "Wasitatha luraña"
 
-# "_Limpiar"
-#: pippy_app.py:297 pippy_app.py:303
+#  "Copiar"
+#: toolbox.py:253
+msgid "Copy"
+msgstr "Talliqaña"
+
+#  "Pegar"
+#: toolbox.py:254
+msgid "Paste"
+msgstr "Lip'katayaña"
+
+#  "Limpiar"
+#: toolbox.py:262
 msgid "Clear"
-msgstr "Q'umachaña"
+msgstr "Pichsuña"
 
-#  "<alt>c"
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
+msgstr "Ist'aña qhantayaña"
 
-#: pippy_app.py:314
-msgid "Open an example"
-msgstr ""
+#: toolbox.py:325
+msgid "Disable sound"
+msgstr "Ist'aña jiwayaña"
 
-#  "Mis ejemplos"
-#: pippy_app.py:389
-msgid "My examples"
-msgstr "Uñanchaja"
+#  "Pincel"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "Samiphuyu"
 
-#: pippy_app.py:496
-msgid "Hide output panel"
-msgstr ""
+#  "Borrador"
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "Pichaña"
 
-#  "%s Actividad"
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "%s Luräwi"
+#  "Balde"
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "Walti"
 
-#: pippy_app.py:708
-msgid "Python File added to Library"
-msgstr ""
+#: toolbox.py:390
+msgid "Picker"
+msgstr "Ajlliri"
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
-msgstr ""
+#  "Sello"
+#: toolbox.py:393
+msgid "Stamp"
+msgstr "Liq'xataña"
 
-#: pippy_app.py:719
-msgid "Saved"
-msgstr ""
+#: toolbox.py:400
+msgid "Load stamp"
+msgstr "Samichkata ch'amanchaña"
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
-msgstr ""
+#  "Llenar"
+#: toolbox.py:529
+msgid "Fill"
+msgstr "Phuqantaña"
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
-msgstr ""
+#  "Lados: "
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "Qawayanaka: "
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
-msgstr ""
+# RAE: 1. f. Geom. Lugar geométrico de los puntos del plano cuya suma de distancias a otros dos fijos llamados focos es constante. Resulta de cortar un cono circular por un plano que encuentra a todas las generatrices del mismo lado del vértice.
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "Ilipsi"
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
-msgstr ""
+# Pero <Pusi k'uchuni> puede ser también un cuadrado. Habría que relacionar el neologismo con la idea de ÁNGULO RECTO. o parado.
+#
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "Pusi qawayani"
 
-#  "Guardar como error de la Actividad"
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "Luräwi pantjatkipana imtata"
+#  "Línea"
+#: toolbox.py:627
+msgid "Line"
+msgstr "Sich'i"
 
-#  "Por favor de a su actividad un nombre con significado antes de intentar "
-#  "guardarlo como una actividad."
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr "Mira suma, luräwima suma sutichata ukhat imtata luräwijama."
+#  "Forma libre"
+#: toolbox.py:630
+msgid "Free form"
+msgstr "Kunaymana uñanaqa"
 
-#  "Bien"
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "Waliki"
+# RAE: 2. m. Geom. Porción de plano limitada por líneas rectas.
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "Walja qawayani"
 
-#: pippy_app.py:779
-msgid "Activity icon"
-msgstr ""
+#  "Corazón"
+#: toolbox.py:636
+msgid "Heart"
+msgstr "Lluqu"
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
-msgstr ""
+# Paya qawayaxa irpasisa sart'iri
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "Kajuna"
 
-#  "Creando una actividad empaquetada..."
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "Luräwinaka lurapji..."
+#  "Flecha"
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "Mich'i"
 
-#  "Actividad Pippy"
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
-msgstr "Peppy luräwi"
+#  "Estrella"
+#: toolbox.py:645
+msgid "Star"
+msgstr "Warawara"
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr ""
+# 1. m. Geom. Cuadrilátero irregular que no tiene ningún lado paralelo a otro.
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "Kicha-kicha kajuna"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
+#  "Triángulo"
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "Kimsa qawayani"
 
-#  "Guardar como Ejemplo Erróneo"
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr "Pantjatjama imtjata"
+#  "Teclear"
+#: toolbox.py:685
+msgid "Type"
+msgstr "T'iqiqiyaña"
 
-#  "Por favor de a su actividad un nombre con significado antes de intentar "
-#  "guardarlo como un ejemplo."
-#: pippy_app.py:912
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr "Mira suma, luräwima suma sutichata ukhat imtata luräwijama."
+#  "Añadir imagen"
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "Jamuqampi yapt'aña"
 
-#  "Generando ejemplo..."
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr "Uñanchayapjiwa..."
+#  "Rotar izquierda"
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "Ch'iqaru muytayaña"
 
-#  "Guardar como Ejemplo de Advertencia"
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr "Imañtata ma sañjama"
+#  "Rotar derecha"
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "Kupiru muytayaña"
 
-#  "Este ejemplo ya existe. Deseas sobreescribirlo?"
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr "Uñanchaña utjiwa. ¿Cchaqayañacha?"
+# Saytata Uñjasiña?  Más bien lo HORIZONTAL tiene analogía con ECHADO
+#: toolbox.py:798
+msgid "Horizontal Mirror"
+msgstr "Iramaru uñtata qhispillu"
 
-#  "Guardado como ejemplo."
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr "Ma uñanchajama imtataskiwa."
+# Liwtata uñjaña??? No... VERTICAL es a PARADO.
+#: toolbox.py:803
+msgid "Vertical Mirror"
+msgstr "Alaxaru uñtata qhispillu"
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr ""
+#  "Escala de grises"
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "Jayphurayata uñtasiri"
 
-#  "Actividad guardada en el diario."
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "Luräwi sapüru luräwiru imtataskiwa."
+#  "Arco iris"
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "Kuyurmi"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr ""
+#: toolbox.py:821
+msgid "Kaleidoscope"
+msgstr "Caleidoscopio sata wakichata"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr ""
+#  "Invertir colores"
+#: toolbox.py:825
+msgid "Invert Colors"
+msgstr "Saminaka jaqukipaña"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr ""
+#: dialogs.py:100
+msgid "Done"
+msgstr "Lursuta"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr ""
+#: dialogs.py:128
+msgid "Select stamp"
+msgstr "Samichkata ajlliña"
 
-#  "PAUSADO"
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "Suyt'ayaña"
+#: fontcombobox.py:90
+msgid "Select font"
+msgstr "Qillqana kankañapa ajlliña"
+
+#~ msgid "Kalidoscope"
+#~ msgstr "Caleidoscopio sata"
+
+#  "Altura"
+#~ msgid "Height"
+#~ msgstr "Sayt'aru"
+
+#  "Anchura"
+#~ msgid "Width"
+#~ msgstr "Lankhu"
+
+#  "Seleccionar imagen"
+#~ msgid "Choose image"
+#~ msgstr "Uñjasiwi ajlliña"

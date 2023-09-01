@@ -7,295 +7,328 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2012-06-26 23:06+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2017-02-18 02:19+0000\n"
+"Last-Translator: Chris <cjl@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1487384376.000000\n"
 
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "Pippy"
+msgid "Paint"
+msgstr "Boyama"
 
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
 
-#: filedialog.py:79
-msgid "Choose an example to open"
+#: widgets.py:17
+msgid "Size: "
+msgstr "Boyut: "
+
+#: widgets.py:17
+msgid "Opacity: "
 msgstr ""
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
+#: widgets.py:17
+msgid "Circle"
+msgstr "Çember"
+
+#: widgets.py:17
+msgid "Square"
+msgstr "Kare"
+
+#: widgets.py:31
+msgid "Choose brush properties"
 msgstr ""
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
+#: widgets.py:234
+msgid "Size"
 msgstr ""
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
+#: widgets.py:248
+msgid "Opacity"
 msgstr ""
 
-#: toolbars.py:42
-msgid "Zoom in"
+#: widgets.py:273
+msgid "Shape"
+msgstr "Şekil"
+
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
 msgstr ""
 
-#: toolbars.py:48
-msgid "Zoom out"
+#: widgets.py:304
+msgid "Brush properties"
 msgstr ""
 
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "%s kaynak"
-
-#: icondialog.py:116
-msgid "Select an icon"
+#: widgets.py:310
+msgid "Stamp properties"
 msgstr ""
 
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
+#: widgets.py:314
+msgid "Eraser properties"
 msgstr ""
 
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
+#: widgets.py:317
+msgid "Bucket properties"
 msgstr ""
 
-#: pippy_app.py:97
-msgid "graphics"
+#: widgets.py:319
+msgid "Picker properties"
 msgstr ""
 
-#: pippy_app.py:97
-msgid "math"
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
 msgstr ""
 
-#: pippy_app.py:97
-msgid "python"
-msgstr ""
-
-#: pippy_app.py:97
-msgid "sound"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "string"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr ""
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr ""
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr ""
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr ""
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr ""
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr ""
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr ""
-
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
-msgstr "düzenleyiniz."
+msgstr "Düzenle"
 
-#: pippy_app.py:242
-msgid "View"
+#: toolbox.py:145
+msgid "Shapes properties"
 msgstr ""
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "Şekiller"
+
+#: toolbox.py:177
+msgid "Fonts"
 msgstr ""
 
-#: pippy_app.py:265 pippy_app.py:268
-#, fuzzy
-msgid "Run!"
-msgstr "çalıştırınız!"
+#: toolbox.py:183
+msgid "Image"
+msgstr "Görüntü"
 
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "Geri al"
 
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "Dur"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "Yeniden yap"
 
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#: toolbox.py:253
+msgid "Copy"
+msgstr "Kopyala"
 
-#: pippy_app.py:297 pippy_app.py:303
+#: toolbox.py:254
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: toolbox.py:262
 msgid "Clear"
 msgstr "Temizle"
 
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
-
-#: pippy_app.py:314
-msgid "Open an example"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
 msgstr ""
 
-#: pippy_app.py:389
-msgid "My examples"
+#: toolbox.py:325
+msgid "Disable sound"
 msgstr ""
 
-#: pippy_app.py:496
-msgid "Hide output panel"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "Fırça"
+
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "Silgi"
+
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "Kova"
+
+#: toolbox.py:390
+msgid "Picker"
 msgstr ""
 
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "%s aktivite"
-
-#: pippy_app.py:708
-msgid "Python File added to Library"
+#: toolbox.py:393
+msgid "Stamp"
 msgstr ""
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
+#: toolbox.py:400
+msgid "Load stamp"
 msgstr ""
 
-#: pippy_app.py:719
-msgid "Saved"
+#: toolbox.py:529
+msgid "Fill"
+msgstr "Doldur"
+
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "Kenarlar: "
+
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "Elips"
+
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "Dikdörtgen"
+
+#: toolbox.py:627
+msgid "Line"
+msgstr "Çizgi"
+
+#: toolbox.py:630
+msgid "Free form"
 msgstr ""
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "Çokgen"
+
+#: toolbox.py:636
+msgid "Heart"
+msgstr "Kalp"
+
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "Paralelkenar"
+
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "Ok"
+
+#: toolbox.py:645
+msgid "Star"
+msgstr "Yıldız"
+
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "İkizkenar yamuk"
+
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "Üçgen"
+
+#: toolbox.py:685
+msgid "Type"
+msgstr "Yaz"
+
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "Resim Ekle"
+
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "Sola döndür"
+
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "Sağa döndür"
+
+#: toolbox.py:798
+msgid "Horizontal Mirror"
 msgstr ""
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
+#: toolbox.py:803
+msgid "Vertical Mirror"
 msgstr ""
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "Gri ton"
+
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "Gökkuşağı"
+
+#: toolbox.py:821
+msgid "Kaleidoscope"
 msgstr ""
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
+#: toolbox.py:825
+msgid "Invert Colors"
 msgstr ""
 
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "aktivite hatası olarak kaydediniz."
-
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr ""
-"lütfen aktivitenize anlamlı bir isim verip öyle aktivite olarak kaydediniz."
-
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "tamam"
-
-#: pippy_app.py:779
-msgid "Activity icon"
+#: dialogs.py:100
+msgid "Done"
 msgstr ""
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
+#: dialogs.py:128
+msgid "Select stamp"
 msgstr ""
 
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "aktivite kümesi oluşturuluyor."
-
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
+#: fontcombobox.py:90
+msgid "Select font"
 msgstr ""
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr ""
+#~ msgid "Height"
+#~ msgstr "Yükseklik"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
+#~ msgid "Width"
+#~ msgstr "Genişlik"
 
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr ""
+#~ msgid "Choose image"
+#~ msgstr "Resim seç"
 
-#: pippy_app.py:912
-#, fuzzy
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr ""
-"lütfen aktivitenize anlamlı bir isim verip öyle aktivite olarak kaydediniz."
+#~ msgid "Tools"
+#~ msgstr "Araçlar"
 
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr ""
+#~ msgid "Text"
+#~ msgstr "Metin"
 
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr ""
+#~ msgid "Effects"
+#~ msgstr "Etkiler"
 
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr ""
+#~ msgid "Stroke Color"
+#~ msgstr "Boya Darbesi"
 
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr ""
+#~ msgid "Pencil"
+#~ msgstr "Kurşunkalem"
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr ""
+#~ msgid "Fill Color"
+#~ msgstr "Boya"
 
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "aktivite günlüğe kaydedilmiştir."
+#~ msgid "Points: "
+#~ msgstr "Noktalar"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr ""
+#~ msgid "1000"
+#~ msgstr "1000"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr ""
+#~ msgid "500"
+#~ msgstr "500"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr ""
+#~ msgid "200"
+#~ msgstr "200"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr ""
+#~ msgid "150"
+#~ msgstr "150"
 
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "Ara"
+#~ msgid "100"
+#~ msgstr "100"
+
+#~ msgid "50"
+#~ msgstr "50"
+
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "ZOOM +"
+#~ msgstr "Yakınlaştır +"
+
+#~ msgid "ZOOM -"
+#~ msgstr "Uzaklaştır -"
+
+#~ msgid "Rectangular Marquee"
+#~ msgstr "Dikdörtgen Çerçeve"
+
+#~ msgid "Tool Color"
+#~ msgstr "Araç Renkleri"
+
+#~ msgid "Fill Color: "
+#~ msgstr "Boyama:"

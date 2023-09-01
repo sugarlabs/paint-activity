@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2012-06-26 23:05+0200\n"
+"PO-Revision-Date: 2012-03-10 16:41+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -18,284 +18,325 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "பிப்பி"
+msgid "Paint"
+msgstr "நிறம்/மை"
 
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
 
-#: filedialog.py:79
-msgid "Choose an example to open"
+#: widgets.py:17
+msgid "Size: "
+msgstr "அளவு: "
+
+#: widgets.py:17
+msgid "Opacity: "
 msgstr ""
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
+#: widgets.py:17
+msgid "Circle"
+msgstr "வட்டம்"
+
+#: widgets.py:17
+msgid "Square"
+msgstr "சதுரம்"
+
+#: widgets.py:31
+msgid "Choose brush properties"
+msgstr "தூரிகை பண்புகளை தெறிவுச்செய்"
+
+#: widgets.py:234
+msgid "Size"
 msgstr ""
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
+#: widgets.py:248
+msgid "Opacity"
 msgstr ""
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
+#: widgets.py:273
+msgid "Shape"
+msgstr "வடிவம்"
+
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
+msgstr "பார்வையை வைத்திரு"
+
+#: widgets.py:304
+msgid "Brush properties"
+msgstr "தூரிகை பண்புகள்"
+
+#: widgets.py:310
+msgid "Stamp properties"
+msgstr "முத்திரை பண்புகள்"
+
+#: widgets.py:314
+msgid "Eraser properties"
 msgstr ""
 
-#: toolbars.py:42
-msgid "Zoom in"
+#: widgets.py:317
+msgid "Bucket properties"
 msgstr ""
 
-#: toolbars.py:48
-msgid "Zoom out"
+#: widgets.py:319
+msgid "Picker properties"
 msgstr ""
 
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "%s வளம்"
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
+msgstr "பகுதியை தெரிவு செய்"
 
-#: icondialog.py:116
-msgid "Select an icon"
-msgstr ""
-
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
-msgstr ""
-
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
-msgstr "ஒலிக்கான TamTamEdit library காணவில்லை. TamTamEdit யை நிறுவி உள்ளீர்களா?"
-
-#: pippy_app.py:97
-msgid "graphics"
-msgstr ""
-
-#: pippy_app.py:97
-msgid "math"
-msgstr ""
-
-#: pippy_app.py:97
-msgid "python"
-msgstr ""
-
-#: pippy_app.py:97
-msgid "sound"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "string"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr ""
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr ""
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr ""
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr ""
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr ""
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr ""
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr ""
-
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
-msgstr "திருத்துக"
+msgstr "திருத்து"
 
-#: pippy_app.py:242
-msgid "View"
-msgstr ""
+#: toolbox.py:145
+msgid "Shapes properties"
+msgstr "வடிவங்களின் பண்புகள்"
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
-msgstr ""
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "வடிவங்கள்"
 
-#: pippy_app.py:265 pippy_app.py:268
-msgid "Run!"
-msgstr "ஓடு!"
+#: toolbox.py:177
+msgid "Fonts"
+msgstr "எழுத்துருக்கள்"
 
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#: toolbox.py:183
+msgid "Image"
+msgstr "படம்"
 
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "நிறுத்து"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "செயலை றத்து செய்"
 
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "செயலை மீண்டும் செய்"
 
-#: pippy_app.py:297 pippy_app.py:303
+#: toolbox.py:253
+msgid "Copy"
+msgstr "பிரதி"
+
+#: toolbox.py:254
+msgid "Paste"
+msgstr "ஒட்டு"
+
+#: toolbox.py:262
 msgid "Clear"
-msgstr "நீக்கு"
+msgstr "இல்லாமல் செய்"
 
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
-
-#: pippy_app.py:314
-msgid "Open an example"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
 msgstr ""
 
-#: pippy_app.py:389
-msgid "My examples"
-msgstr "என்னுடைய உதாரணங்கள்"
-
-#: pippy_app.py:496
-msgid "Hide output panel"
+#: toolbox.py:325
+msgid "Disable sound"
 msgstr ""
 
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "%s செயற்பாடு"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "தூரிகை"
 
-#: pippy_app.py:708
-msgid "Python File added to Library"
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "அழிப்பான்"
+
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "வாளி"
+
+#: toolbox.py:390
+msgid "Picker"
 msgstr ""
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
+#: toolbox.py:393
+msgid "Stamp"
+msgstr "முத்திரை"
+
+#: toolbox.py:400
+msgid "Load stamp"
 msgstr ""
 
-#: pippy_app.py:719
-msgid "Saved"
+#: toolbox.py:529
+msgid "Fill"
+msgstr "நிரப்புதல்"
+
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "பக்கங்கள்: "
+
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "நீள்வட்டம்"
+
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "செவ்வகம்"
+
+#: toolbox.py:627
+msgid "Line"
+msgstr "கோடு"
+
+#: toolbox.py:630
+msgid "Free form"
+msgstr "இலவச படிவம்"
+
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "பல்கோணி"
+
+#: toolbox.py:636
+msgid "Heart"
+msgstr "இதயம்"
+
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "இணைகரம்"
+
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "அம்பு"
+
+#: toolbox.py:645
+msgid "Star"
+msgstr "நட்சத்திரம்"
+
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "சரிவகம்"
+
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "முக்கோணம்"
+
+#: toolbox.py:685
+msgid "Type"
+msgstr "எழுது"
+
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "படத்தை உச்சேர்"
+
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "இடது பக்கத்திருப்பு"
+
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "வலது பக்கத்திருப்பு"
+
+#: toolbox.py:798
+msgid "Horizontal Mirror"
+msgstr "கிடைமட்ட கண்ணாடி"
+
+#: toolbox.py:803
+msgid "Vertical Mirror"
+msgstr "நெர்மட்ட கண்ணாடி"
+
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "நரை மாதிரி"
+
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "வானவில்"
+
+#: toolbox.py:821
+msgid "Kaleidoscope"
 msgstr ""
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
+#: toolbox.py:825
+msgid "Invert Colors"
+msgstr "வண்ணத்தை தழைகீழாக்கு"
+
+#: dialogs.py:100
+msgid "Done"
 msgstr ""
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
+#: dialogs.py:128
+msgid "Select stamp"
 msgstr ""
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
+#: fontcombobox.py:90
+msgid "Select font"
 msgstr ""
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
-msgstr ""
+#~ msgid "Height"
+#~ msgstr "உயரம்"
 
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "செயற்பாட்டு தவறை மாற்றிசேமிக்கவும்"
+#~ msgid "Width"
+#~ msgstr "அகலம்"
 
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr ""
-"தயவுசெய்து உங்கள்செயற்பாட்டிற்கு அர்த்தமுள்ளபெயரை வழங்கியபின்னர் முயற்சித்து "
-"அச்செயற்பாட்டை சேமிக்க"
+#~ msgid "Choose image"
+#~ msgstr "படத்தை தெரிவு செய்"
 
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "சரி"
+#~ msgid "Tools"
+#~ msgstr "கருவிகள்"
 
-#: pippy_app.py:779
-msgid "Activity icon"
-msgstr ""
+#~ msgid "Text"
+#~ msgstr "உரை"
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
-msgstr ""
+#~ msgid "Effects"
+#~ msgstr "தாக்கம்"
 
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "ஆக்கபூர்வ செயற்பாட்டுத்தொகுதி"
+#~ msgid "Stroke Color"
+#~ msgstr "பக்கவாத மை"
 
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
-msgstr "பிப்பியின் செயற்பாடு"
+#~ msgid "Pencil"
+#~ msgstr "பென்சில்"
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr ""
+#~ msgid "Fill Color"
+#~ msgstr "மை நிரப்புதல்"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
+#~ msgid "Points: "
+#~ msgstr "குறி:"
 
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr "உதாரண தவறாக சேமி"
+#~ msgid "Keep Aspect"
+#~ msgstr "பார்ப்பதை வைத்திரு"
 
-#: pippy_app.py:912
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr ""
-"தயவுசெய்து உங்கள்செயற்பாட்டிற்கு அர்த்தமுள்ளபெயரை வழங்கியபின்னர் முயற்சித்து "
-"அச்செயற்பாட்டை சேமிக்க"
+#~ msgid "1000"
+#~ msgstr "ஆயிரம்"
 
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr "உதாரணங்கள் உருவாக்கம்..."
+#~ msgid "500"
+#~ msgstr "ஐநூறு"
 
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr "எச்சரிக்கான உதாரணமாக சேமி"
+#~ msgid "200"
+#~ msgstr "இருநூறு"
 
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr "இந்த உதாரணம் ஏற்கனவேயுள்ளது. உங்களுக்கு மீண்டும் மாற்றி எழுத வேண்டுமா?"
+#~ msgid "150"
+#~ msgstr "நூற்றைம்பது"
 
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr "உதாரணமாக சேமி."
+#~ msgid "100"
+#~ msgstr "நூறு"
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr ""
+#~ msgid "50"
+#~ msgstr "ஐம்பது"
 
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "செயற்பாட்டைநாட்குறிப்பேட்டில்சேமி"
+#~ msgid "25"
+#~ msgstr "இருபத்தைந்து"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr ""
+#~ msgid "10"
+#~ msgstr "பத்து"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr ""
+#~ msgid "ZOOM +"
+#~ msgstr "பெரிதாக்கு +"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr ""
+#~ msgid "ZOOM -"
+#~ msgstr "பெரிதாக்கு -"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr ""
+#~ msgid "Mirror Horizontal"
+#~ msgstr "கிடைத்தள கண்ணாடி"
 
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "இடைநிறுத்து"
+#~ msgid "Mirror Vertical"
+#~ msgstr "நெடுக்கை கண்ணாடி"
+
+#~ msgid "Rectangular Marquee"
+#~ msgstr "கிடையாக ஓடும் எழுத்து"
+
+#~ msgid "Tool Color"
+#~ msgstr "கருவி நிறம்"
+
+#~ msgid "Fill Color: "
+#~ msgstr "மை நிரப்புதல்:"

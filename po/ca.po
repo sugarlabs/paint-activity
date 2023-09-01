@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2015-09-23 13:31+0000\n"
+"PO-Revision-Date: 2017-02-17 07:08+0000\n"
 "Last-Translator: Robert <rbuj@fedoraproject.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,295 +16,336 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1443015084.000000\n"
+"X-POOTLE-MTIME: 1487315319.000000\n"
 
-# well-spelled: Pippy
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "Pippy"
+msgid "Paint"
+msgstr "Dibuix"
 
+# well-spelled: Picasso, Van, Gogh
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
+"Picasso? Van Gogh? Podeu ser un d'ells! Tan sols allibereu l'artista que "
+"porteu a dins. Transformeu les imatges que teniu a la vostra ment en "
+"dibuixos meravellosos."
 
-#: filedialog.py:79
-msgid "Choose an example to open"
-msgstr ""
+#: widgets.py:17
+msgid "Size: "
+msgstr "Mida: "
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
-msgstr ""
+#: widgets.py:17
+msgid "Opacity: "
+msgstr "Opacitat: "
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
-msgstr ""
+#: widgets.py:17
+msgid "Circle"
+msgstr "Cercle"
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
-msgstr ""
+#: widgets.py:17
+msgid "Square"
+msgstr "Quadrat"
 
-#: toolbars.py:42
-msgid "Zoom in"
-msgstr ""
+#: widgets.py:31
+msgid "Choose brush properties"
+msgstr "Tria les propietats del pinzell"
 
-#: toolbars.py:48
-msgid "Zoom out"
-msgstr ""
+#: widgets.py:234
+msgid "Size"
+msgstr "Mida"
 
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "%s codi font"
+#: widgets.py:248
+msgid "Opacity"
+msgstr "Opacitat"
 
-#: icondialog.py:116
-msgid "Select an icon"
-msgstr ""
+#: widgets.py:273
+msgid "Shape"
+msgstr "Forma"
 
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
-msgstr ""
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
+msgstr "Manté l'aspecte"
 
-# well-spelled: TamTamEdit
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
-msgstr ""
-"No es pot trobar la biblioteca de sons del TamTamEdit. Vàreu instal·lar el "
-"TamTamEdit?"
+#: widgets.py:304
+msgid "Brush properties"
+msgstr "Propietats del pinzell"
 
-#: pippy_app.py:97
-msgid "graphics"
-msgstr ""
+#: widgets.py:310
+msgid "Stamp properties"
+msgstr "Propietats del segell"
 
-#: pippy_app.py:97
-msgid "math"
-msgstr ""
+#: widgets.py:314
+msgid "Eraser properties"
+msgstr "Propietats de la goma d'esborrar"
 
-#: pippy_app.py:97
-msgid "python"
-msgstr ""
+#: widgets.py:317
+msgid "Bucket properties"
+msgstr "Propietats de la galleda"
 
-#: pippy_app.py:97
-msgid "sound"
-msgstr ""
+#: widgets.py:319
+msgid "Picker properties"
+msgstr "Propietats del selector"
 
-#: pippy_app.py:98
-msgid "string"
-msgstr ""
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
+msgstr "Selecciona una àrea"
 
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr ""
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr ""
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr ""
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr ""
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr ""
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr ""
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr ""
-
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
 msgstr "Edita"
 
-#: pippy_app.py:242
-msgid "View"
-msgstr ""
+#: toolbox.py:145
+msgid "Shapes properties"
+msgstr "Propietats de la forma"
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
-msgstr ""
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "Formes"
 
-#: pippy_app.py:265 pippy_app.py:268
-msgid "Run!"
-msgstr "Executa!"
+#: toolbox.py:177
+msgid "Fonts"
+msgstr "Tipus de lletra"
 
-# well-spelled: r
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#: toolbox.py:183
+msgid "Image"
+msgstr "Imatge"
 
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "Atura"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "Desfés"
 
-# well-spelled: s
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "Refés"
 
-#: pippy_app.py:297 pippy_app.py:303
+#: toolbox.py:253
+msgid "Copy"
+msgstr "Copia"
+
+#: toolbox.py:254
+msgid "Paste"
+msgstr "Enganxa"
+
+# segons termcat
+# http://www.termcat.cat/scripts/rwisapi.dll/@Termcat_dev.env
+#: toolbox.py:262
 msgid "Clear"
 msgstr "Neteja"
 
-# well-spelled: c
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
+msgstr "Habilita el so"
 
-#: pippy_app.py:314
-msgid "Open an example"
-msgstr ""
+#: toolbox.py:325
+msgid "Disable sound"
+msgstr "Inhabilita el so"
 
-#: pippy_app.py:389
-msgid "My examples"
-msgstr "Els meus exemples"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "Pinzell"
 
-#: pippy_app.py:496
-msgid "Hide output panel"
-msgstr ""
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "Goma d'esborrar"
 
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "%s l'activitat"
+# altresÑ
+# cubell m, galleda f, poal m; (of waterwheel) catúfol m
+#
+#
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "Galleda"
 
-#: pippy_app.py:708
-msgid "Python File added to Library"
-msgstr ""
+#: toolbox.py:390
+msgid "Picker"
+msgstr "Selector"
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
-msgstr ""
+#: toolbox.py:393
+msgid "Stamp"
+msgstr "Segell"
 
-#: pippy_app.py:719
-msgid "Saved"
-msgstr ""
+#: toolbox.py:400
+msgid "Load stamp"
+msgstr "Carrega un segell"
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
-msgstr ""
+#: toolbox.py:529
+msgid "Fill"
+msgstr "Omple"
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
-msgstr ""
+# altres:
+# costat m, cantó m, banda f; (of disk, piece of paper) cara f;
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "Cares: "
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
-msgstr ""
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "El·lipse"
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
-msgstr ""
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "Rectangle"
 
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "Desa-ho com un error de l'activitat"
+#: toolbox.py:627
+msgid "Line"
+msgstr "Línia"
 
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr ""
-"Si us plau, doneu a l'activitat un nom significatiu abans d'intentar de "
-"desar-la com una activitat."
+#: toolbox.py:630
+msgid "Free form"
+msgstr "Forma lliure"
 
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "D'acord"
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "Polígon"
 
-#: pippy_app.py:779
-msgid "Activity icon"
-msgstr ""
+#: toolbox.py:636
+msgid "Heart"
+msgstr "Cor"
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
-msgstr ""
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "Paral·lelogram"
 
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "S'està creant el paquet de l'activitat..."
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "Fletxa"
 
-# well-spelled: Pippy
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
-msgstr "Activitat Pippy"
+#: toolbox.py:645
+msgid "Star"
+msgstr "Estrella"
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr ""
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "Trapezoide"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "Triangle"
 
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr "Desa-ho com un exemple d'error"
+# cal contetÑ
+# altres son: caixa, cos....
+#: toolbox.py:685
+msgid "Type"
+msgstr "Estil"
 
-#: pippy_app.py:912
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr ""
-"Si us plau, doneu a l'activitat un nom significatiu abans d'intentar de "
-"desar-la com un exemple."
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "Insereix una imatge"
 
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr "S'està creant l'exemple..."
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "Gira a l'esquerra"
 
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr "Desa-ho com un exemple d'advertència"
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "Gira a la dreta"
 
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr "Aquest exemple ja existeix, voleu sobreescriure'l?"
+#: toolbox.py:798
+msgid "Horizontal Mirror"
+msgstr "Reflexa horitzontalment"
 
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr "Es va desar com un exemple."
+#: toolbox.py:803
+msgid "Vertical Mirror"
+msgstr "Reflexa verticalment"
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr ""
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "Escala de grisos"
 
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "L'activitat s'ha desat al diari."
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "Arc de Sant Martí"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr ""
+#: toolbox.py:821
+msgid "Kaleidoscope"
+msgstr "Calidoscopi"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr ""
+#: toolbox.py:825
+msgid "Invert Colors"
+msgstr "Inverteix els colors"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr ""
+#: dialogs.py:100
+msgid "Done"
+msgstr "Fet"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr ""
+#: dialogs.py:128
+msgid "Select stamp"
+msgstr "Selecciona el segell"
 
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "ATURAT"
+#: fontcombobox.py:90
+msgid "Select font"
+msgstr "Selecciona el tipus de lletra"
+
+#~ msgid "Kalidoscope"
+#~ msgstr "Calidoscopi"
+
+#~ msgid "Height"
+#~ msgstr "Alçada"
+
+#~ msgid "Width"
+#~ msgstr "Amplada"
+
+#~ msgid "Choose image"
+#~ msgstr "Tria Imatge"
+
+#~ msgid "Tools"
+#~ msgstr "Eines"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Effects"
+#~ msgstr "Efectes"
+
+#~ msgid "Stroke Color"
+#~ msgstr "Traç de Color"
+
+#~ msgid "Pencil"
+#~ msgstr "Llapis"
+
+#~ msgid "Fill Color"
+#~ msgstr "Omplir amb color"
+
+#~ msgid "Points: "
+#~ msgstr "Punts:"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "500"
+#~ msgstr "500"
+
+#~ msgid "200"
+#~ msgstr "200"
+
+#~ msgid "150"
+#~ msgstr "150"
+
+#~ msgid "100"
+#~ msgstr "100"
+
+#~ msgid "50"
+#~ msgstr "50"
+
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "ZOOM +"
+#~ msgstr "AMPLIAR +"
+
+#~ msgid "ZOOM -"
+#~ msgstr "REDUIR -"
+
+#~ msgid "Rectangular Marquee"
+#~ msgstr "Marquesina Rectangular"
+
+#~ msgid "Tool Color"
+#~ msgstr "Eina de color"
+
+#~ msgid "Fill Color: "
+#~ msgstr "Omplir amb color:"

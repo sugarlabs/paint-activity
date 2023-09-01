@@ -1,15 +1,15 @@
-# translation of pippy-activity.po to Sinhalese
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: pippy-activity\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2012-06-26 22:52+0200\n"
+"PO-Revision-Date: 2011-09-28 08:24+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
-"Language-Team: Sinhalese <en@li.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,283 +18,316 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "පිපී"
+msgid "Paint"
+msgstr "පින්තාරු කරන්න"
 
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
 
-#: filedialog.py:79
-msgid "Choose an example to open"
+#: widgets.py:17
+msgid "Size: "
+msgstr "ප්‍රමාණය: "
+
+#: widgets.py:17
+msgid "Opacity: "
 msgstr ""
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
+#: widgets.py:17
+msgid "Circle"
+msgstr "වෘත්තය"
+
+#: widgets.py:17
+msgid "Square"
+msgstr "කොටුව"
+
+#: widgets.py:31
+msgid "Choose brush properties"
 msgstr ""
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
+#: widgets.py:234
+msgid "Size"
 msgstr ""
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
+#: widgets.py:248
+msgid "Opacity"
 msgstr ""
 
-#: toolbars.py:42
-msgid "Zoom in"
+#: widgets.py:273
+msgid "Shape"
+msgstr "හැඩය"
+
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
 msgstr ""
 
-#: toolbars.py:48
-msgid "Zoom out"
+#: widgets.py:304
+msgid "Brush properties"
 msgstr ""
 
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "%s මූලය"
-
-#: icondialog.py:116
-msgid "Select an icon"
+#: widgets.py:310
+msgid "Stamp properties"
 msgstr ""
 
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
+#: widgets.py:314
+msgid "Eraser properties"
 msgstr ""
 
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
-msgstr "TamTamEdit ශබ්ද පුස්තකාලය සොයාගැනීමට නොහැක. ඔබ TamTamEdit ස්ථාපනය කලාද?"
-
-#: pippy_app.py:97
-msgid "graphics"
+#: widgets.py:317
+msgid "Bucket properties"
 msgstr ""
 
-#: pippy_app.py:97
-msgid "math"
+#: widgets.py:319
+msgid "Picker properties"
 msgstr ""
 
-#: pippy_app.py:97
-msgid "python"
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
 msgstr ""
 
-#: pippy_app.py:97
-msgid "sound"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "string"
-msgstr ""
-
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr ""
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr ""
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr ""
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr ""
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr ""
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr ""
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr ""
-
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
-msgstr "සකසන්න"
+msgstr "සංස්කරණය කරන්න"
 
-#: pippy_app.py:242
-msgid "View"
+#: toolbox.py:145
+msgid "Shapes properties"
 msgstr ""
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "හැඩ"
+
+#: toolbox.py:177
+msgid "Fonts"
 msgstr ""
 
-#: pippy_app.py:265 pippy_app.py:268
-msgid "Run!"
-msgstr "දුවන්න!"
+#: toolbox.py:183
+msgid "Image"
+msgstr "පින්තූරය"
 
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "නිශ්ප්‍රභ කරන්න"
 
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "නවත්වන්න"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "යළි කරන්න"
 
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#: toolbox.py:253
+msgid "Copy"
+msgstr "පිටපත් කරන්න"
 
-#: pippy_app.py:297 pippy_app.py:303
+#: toolbox.py:254
+msgid "Paste"
+msgstr "අලවන්න"
+
+#: toolbox.py:262
 msgid "Clear"
+msgstr "පවිත්‍ර කරන්න"
+
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
 msgstr ""
 
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
-
-#: pippy_app.py:314
-msgid "Open an example"
+#: toolbox.py:325
+msgid "Disable sound"
 msgstr ""
 
-#: pippy_app.py:389
-msgid "My examples"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "පින්සල"
+
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "මකනය"
+
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "පනිට්ටුව"
+
+#: toolbox.py:390
+msgid "Picker"
 msgstr ""
 
-#: pippy_app.py:496
-msgid "Hide output panel"
+#: toolbox.py:393
+msgid "Stamp"
 msgstr ""
 
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "%s ක්‍රියාකාරකම"
-
-#: pippy_app.py:708
-msgid "Python File added to Library"
+#: toolbox.py:400
+msgid "Load stamp"
 msgstr ""
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
+#: toolbox.py:529
+msgid "Fill"
+msgstr "පුරවන්න"
+
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "පැති: "
+
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "ඉලිප්සය"
+
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "ඍජුකෝණාශ්‍රය"
+
+#: toolbox.py:627
+msgid "Line"
+msgstr "රේඛාව"
+
+#: toolbox.py:630
+msgid "Free form"
 msgstr ""
 
-#: pippy_app.py:719
-msgid "Saved"
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "බහුඅශ්‍රය"
+
+#: toolbox.py:636
+msgid "Heart"
+msgstr "හෘදය"
+
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "සමාන්තරාස්‍රය"
+
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "ඊතලය"
+
+#: toolbox.py:645
+msgid "Star"
+msgstr "තරුව"
+
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "ත්‍රපිසාභය"
+
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "ත්‍රිකෝණය"
+
+#: toolbox.py:685
+msgid "Type"
+msgstr "වර්ගය"
+
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "පින්තූරයක් ඇතුල් කරන්න"
+
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "වමට හරවන්න"
+
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "දකුණට හරවන්න"
+
+#: toolbox.py:798
+msgid "Horizontal Mirror"
 msgstr ""
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
+#: toolbox.py:803
+msgid "Vertical Mirror"
 msgstr ""
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "කළුසුදු"
+
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "දේදුන්න"
+
+#: toolbox.py:821
+msgid "Kaleidoscope"
 msgstr ""
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
+#: toolbox.py:825
+msgid "Invert Colors"
 msgstr ""
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
+#: dialogs.py:100
+msgid "Done"
 msgstr ""
 
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "ක්‍රියාකාරකම් දෝෂයක් ලෙස සුරකින්න"
-
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr ""
-"ක්‍රියාකාරකමක් ලෙස සුරකීමට පෙර කරුණාකර ඔබගේ ක්‍රියාකාරකමට අර්ථවත් නමක් දෙන්න."
-
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "හරි"
-
-#: pippy_app.py:779
-msgid "Activity icon"
+#: dialogs.py:128
+msgid "Select stamp"
 msgstr ""
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
+#: fontcombobox.py:90
+msgid "Select font"
 msgstr ""
 
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "ක්‍රියාකාරකම් පොදියක් සාදයි..."
+#~ msgid "Height"
+#~ msgstr "උස"
 
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
-msgstr ""
+#~ msgid "Width"
+#~ msgstr "පළල"
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr ""
+#~ msgid "Choose image"
+#~ msgstr "පින්තූරයක් තෝරන්න"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
+#~ msgid "Tools"
+#~ msgstr "මෙවලම්"
 
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr ""
+#~ msgid "Text"
+#~ msgstr "පෙළ"
 
-#: pippy_app.py:912
-#, fuzzy
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr ""
-"ක්‍රියාකාරකමක් ලෙස සුරකීමට පෙර කරුණාකර ඔබගේ ක්‍රියාකාරකමට අර්ථවත් නමක් දෙන්න."
+#~ msgid "Effects"
+#~ msgstr "ගුණාගුණ"
 
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr ""
+#~ msgid "Stroke Color"
+#~ msgstr "පහර වර්ණය"
 
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr ""
+#~ msgid "Pencil"
+#~ msgstr "පැන්සල"
 
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr ""
+#~ msgid "Fill Color"
+#~ msgstr "වර්ණය පුරවන්න"
 
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr ""
+#~ msgid "Points: "
+#~ msgstr "ලක්ෂ්‍ය: "
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr ""
+#~ msgid "1000"
+#~ msgstr "1000"
 
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "ක්‍රියාකාරකම ජ'නලයට සුරකින ලදි."
+#~ msgid "500"
+#~ msgstr "500"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr ""
+#~ msgid "200"
+#~ msgstr "200"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr ""
+#~ msgid "150"
+#~ msgstr "150"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr ""
+#~ msgid "100"
+#~ msgstr "100"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr ""
+#~ msgid "50"
+#~ msgstr "50"
 
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "විරාමයක් ගෙන ඇත"
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "ZOOM +"
+#~ msgstr "විශාල කරන්න"
+
+#~ msgid "ZOOM -"
+#~ msgstr "කුඩා කරන්න"
+
+#~ msgid "Rectangular Marquee"
+#~ msgstr "චතුරස්‍ර අනුචලනය"
+
+#~ msgid "Tool Color"
+#~ msgstr "මෙවලම් වර්ණය"
+
+#~ msgid "Fill Color: "
+#~ msgstr "පිරවුම් වර්ණය: "

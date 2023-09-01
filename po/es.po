@@ -1,310 +1,522 @@
-# Spanish translations for PACKAGE package.
-# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# root <rafael@laptop.org>, 2007.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Spanish translation of Drawing activity.
+# Copyright (C) 2007 NATE LSI-USP
+# This file is distributed under the same license as the Oficina package.
+# Nathalia <nathalia.sautchuk@gmail.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: drawing.master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-03-28 01:39+0000\n"
+"PO-Revision-Date: 2017-02-20 02:51+0000\n"
 "Last-Translator: Alan <alanjas@hotmail.com>\n"
-"Language-Team: Spanish\n"
+"Language-Team: Fedora Spanish <fedora-trans-es@redhat.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1490665173.000000\n"
+"X-POOTLE-MTIME: 1487559064.000000\n"
 
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "Peppy"
+msgid "Paint"
+msgstr "Pintar"
 
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
-"¡Buscando programadores! Aquí puedes usar ejemplos para empezar aprendiendo "
-"el lenguaje que tu computadora entiende llamado \"Python\"."
+"¿Picaso? ¿Van Gogh? ¡Puedes ser uno de ellos! Deja salir el artista que "
+"llevas dentro. Transforma imágenes en tu mente en hermosas pinturas."
 
-#: filedialog.py:79
-msgid "Choose an example to open"
-msgstr "Elige un ejemplo para abrir"
+#: widgets.py:17
+msgid "Size: "
+msgstr "Tamaño: "
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
-msgstr "Uniéndose a actividad..."
+#: widgets.py:17
+msgid "Opacity: "
+msgstr "Opacidad: "
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
-msgstr "Por favor espera por la conexión..."
+#: widgets.py:17
+msgid "Circle"
+msgstr "Círculo"
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
-msgstr "Resumiendo actividad compartida..."
+#: widgets.py:17
+msgid "Square"
+msgstr "Cuadrado"
 
-#: toolbars.py:42
-msgid "Zoom in"
-msgstr "Acercar"
+#: widgets.py:31
+msgid "Choose brush properties"
+msgstr "Elija las propiedades del pincel"
 
-#: toolbars.py:48
-msgid "Zoom out"
-msgstr "Alejar"
+#: widgets.py:234
+msgid "Size"
+msgstr "Tamaño"
 
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "%s Fuente"
+#: widgets.py:248
+msgid "Opacity"
+msgstr "Opacidad"
 
-#: icondialog.py:116
-msgid "Select an icon"
-msgstr "Selecciona un icono"
+#: widgets.py:273
+msgid "Shape"
+msgstr "Forma"
 
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
-msgstr "Nuevo Archivo Fuente %d"
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
+msgstr "Mantener relación de aspecto"
 
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
-msgstr ""
-"No se pudo encontrar la librería de audio de la Actividad TamTamEdit. ¿Ha "
-"instalado la Actividad TamTamEdit?"
+#: widgets.py:304
+msgid "Brush properties"
+msgstr "Propiedades del pincel"
 
-#: pippy_app.py:97
-msgid "graphics"
-msgstr "gráficos"
+#: widgets.py:310
+msgid "Stamp properties"
+msgstr "Propiedades de los sellos"
 
-#: pippy_app.py:97
-msgid "math"
-msgstr "matemáticas"
+#: widgets.py:314
+msgid "Eraser properties"
+msgstr "Propiedades del borrador"
 
-#: pippy_app.py:97
-msgid "python"
-msgstr "python"
+#: widgets.py:317
+msgid "Bucket properties"
+msgstr "Propiedades del balde"
 
-#: pippy_app.py:97
-msgid "sound"
-msgstr "sonido"
+#: widgets.py:319
+msgid "Picker properties"
+msgstr "Propiedades del selector"
 
-#: pippy_app.py:98
-msgid "string"
-msgstr "texto"
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
+msgstr "Área seleccionada"
 
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr "tutoriales"
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr "Importar archivo Python en una nueva pestaña"
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr "Exportar como documento Peppy"
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr "Guardar este archivo a la librería Peppy"
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr "Exportar como ejemplo de Peppy"
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr "Crea un paquete de actividad Sugar"
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr "Exportar como un paquete de distutils"
-
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
 msgstr "Editar"
 
-#: pippy_app.py:242
-msgid "View"
-msgstr "Vista"
+#: toolbox.py:145
+msgid "Shapes properties"
+msgstr "Propiedades de las formas"
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
-msgstr "Mostrar panel de salida"
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "Formas"
 
-#: pippy_app.py:265 pippy_app.py:268
-msgid "Run!"
-msgstr "¡Empieza!"
+#: toolbox.py:177
+msgid "Fonts"
+msgstr "Fuentes"
 
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#: toolbox.py:183
+msgid "Image"
+msgstr "Imagen"
 
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "Parar"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "Deshacer"
 
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "Rehacer"
 
-#: pippy_app.py:297 pippy_app.py:303
+#: toolbox.py:253
+msgid "Copy"
+msgstr "Copiar"
+
+#: toolbox.py:254
+msgid "Paste"
+msgstr "Pegar"
+
+#: toolbox.py:262
 msgid "Clear"
 msgstr "Limpiar"
 
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
+msgstr "Habilitar sonido"
 
-#: pippy_app.py:314
-msgid "Open an example"
-msgstr "Abrir un ejemplo"
+#: toolbox.py:325
+msgid "Disable sound"
+msgstr "Deshabilitar sonido"
 
-#: pippy_app.py:389
-msgid "My examples"
-msgstr "Mis ejemplos"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "Pincel"
 
-#: pippy_app.py:496
-msgid "Hide output panel"
-msgstr "Ocultar panel de salida"
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "Borrador"
 
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "%s Actividad"
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "Balde"
 
-#: pippy_app.py:708
-msgid "Python File added to Library"
-msgstr "Archivo Python agregado a la Librería"
+#: toolbox.py:390
+msgid "Picker"
+msgstr "Selector"
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
-msgstr ""
-"El archivo que has seleccionado ha sido agregado a la librería. Usa \"import "
-"{nombreimportado}\" para importar la librería para usarla."
+#: toolbox.py:393
+msgid "Stamp"
+msgstr "Sello"
 
-#: pippy_app.py:719
-msgid "Saved"
-msgstr "Guardado"
+#: toolbox.py:400
+msgid "Load stamp"
+msgstr "Cargar estampa"
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
-msgstr "El documento ha sido guardado al diario."
+#: toolbox.py:529
+msgid "Fill"
+msgstr "Llenar"
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
-msgstr "Error importando archivo Python"
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "Lados: "
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
-msgstr "El archivo que seleccionaste no es un archivo Python."
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "Elipse"
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
-msgstr "El archivo que seleccionaste ya está abierto"
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "Rectángulo"
 
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "Guardar como error de la Actividad"
+#: toolbox.py:627
+msgid "Line"
+msgstr "Línea"
 
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr ""
-"Por favor de a su actividad un nombre con significado antes de intentar "
-"guardarlo como una actividad."
+#: toolbox.py:630
+msgid "Free form"
+msgstr "Forma libre"
 
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "Bien"
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "Polígono"
 
-#: pippy_app.py:779
-msgid "Activity icon"
-msgstr "Icono de la actividad"
+#: toolbox.py:636
+msgid "Heart"
+msgstr "Corazón"
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
-msgstr "Por favor selecciona un icono para la actividad"
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "Paralelogramo"
 
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "Creando una actividad empaquetada..."
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "Flecha"
 
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
-msgstr "Actividad Peppy"
+#: toolbox.py:645
+msgid "Star"
+msgstr "Estrella"
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr "Guardar como paquete de error de distutils"
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "Trapezoide"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
-"Por favor dale a tu actividad un nombre significativo antes de intentar "
-"guardarla como un paquete de distutils."
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "Triángulo"
 
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr "Guardar como Ejemplo Erróneo"
+#: toolbox.py:685
+msgid "Type"
+msgstr "Teclear"
 
-#: pippy_app.py:912
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr ""
-"Por favor de a su actividad un nombre con significado antes de intentar "
-"guardarlo como un ejemplo."
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "Añadir imagen"
 
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr "Generando ejemplo..."
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "Rotar izquierda"
 
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr "Guardar como Ejemplo de Advertencia"
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "Rotar derecha"
 
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr "Este ejemplo ya existe. Deseas sobreescribirlo?"
+#: toolbox.py:798
+msgid "Horizontal Mirror"
+msgstr "Espejo Horizontal"
 
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr "Guardado como ejemplo."
+#: toolbox.py:803
+msgid "Vertical Mirror"
+msgstr "Espejo Vertical"
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr "Error guardando actividad al diario."
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "Escala de grises"
 
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "Actividad guardada en el diario."
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "Arco iris"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr "Error"
+#: toolbox.py:821
+msgid "Kaleidoscope"
+msgstr "Caleidoscopio"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr "Error leyendo datos."
+#: toolbox.py:825
+msgid "Invert Colors"
+msgstr "Invertir colores"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr "Trabajando..."
+#: dialogs.py:100
+msgid "Done"
+msgstr "Hecho"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr "¡hecho!"
+#: dialogs.py:128
+msgid "Select stamp"
+msgstr "Seleccionar estampa"
 
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "PAUSADO"
+#: fontcombobox.py:90
+msgid "Select font"
+msgstr "Seleccionar fuente"
+
+#~ msgid "Kalidoscope"
+#~ msgstr "Caleidoscopio"
+
+#~ msgid "Height"
+#~ msgstr "Altura"
+
+#~ msgid "Width"
+#~ msgstr "Anchura"
+
+# Leave as infinitive verb.
+#~ msgid "Choose image"
+#~ msgstr "Seleccionar imagen"
+
+#~ msgid "Tools"
+#~ msgstr "Herramientas"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Effects"
+#~ msgstr "Efectos"
+
+#~ msgid "Stroke Color"
+#~ msgstr "Color de trazo"
+
+#~ msgid "Pencil"
+#~ msgstr "Lápiz"
+
+#~ msgid "Fill Color"
+#~ msgstr "Color de relleno"
+
+#~ msgid "Points: "
+#~ msgstr "Puntos: "
+
+#~ msgid "Keep Aspect"
+#~ msgstr "Mantener proporciones"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "500"
+#~ msgstr "500"
+
+#~ msgid "200"
+#~ msgstr "200"
+
+#~ msgid "150"
+#~ msgstr "150"
+
+#~ msgid "100"
+#~ msgstr "100"
+
+#~ msgid "50"
+#~ msgstr "50"
+
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "ZOOM +"
+#~ msgstr "Agrandar"
+
+#~ msgid "ZOOM -"
+#~ msgstr "Achicar"
+
+#~ msgid "Mirror Horizontal"
+#~ msgstr "Espejo horizontal"
+
+#~ msgid "Mirror Vertical"
+#~ msgstr "Espejo vertical"
+
+#~ msgid "Rectangular Marquee"
+#~ msgstr "Selección Rectangular"
+
+#~ msgid "Tool Color"
+#~ msgstr "Color de la Herramienta"
+
+#~ msgid "Fill Color: "
+#~ msgstr "Color de llenado: "
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "20"
+#~ msgstr "20"
+
+#~ msgid "Resize (%): "
+#~ msgstr "Retamañar (%): "
+
+#~ msgid "Open File..."
+#~ msgstr "Abrir Archivo..."

@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2017-04-07 13:01+0000\n"
-"Last-Translator: yurchor <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2017-02-17 06:34+0000\n"
+"Last-Translator: lxlalexlxl <pilipchukap@rambler.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -17,295 +17,255 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1491570088.000000\n"
+"X-POOTLE-MTIME: 1487313260.000000\n"
 
 #: activity/activity.info:2
-msgid "Pippy"
-msgstr "Pippy"
+msgid "Paint"
+msgstr "Малювання"
 
 #: activity/activity.info:3
 msgid ""
-"Searching for programmers! Here you can use examples to begin learning the "
-"language your computer understands called \"Python.\""
+"Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
+"free. Transform images in your mind to beautiful paintings."
 msgstr ""
-"Шукаємо програмістів! Тут ви можете скористатися прикладами для того, щоб "
-"почати вчити мову, яку розуміє ваш комп’ютер і яка називається «Python»."
+"Пікассо? Ван Гог? Ти можеш стати одним з них! Звільни в собі художника. "
+"Перетворюй зображення в уяві, щоб отримати гарний малюнок."
 
-#: filedialog.py:79
-msgid "Choose an example to open"
-msgstr "Виберіть приклад, який слід відкрити"
+#: widgets.py:17
+msgid "Size: "
+msgstr "Розмір: "
 
-#: collabwrapper.py:178
-msgid "Joining activity..."
-msgstr "Долучаємося до дії…"
+#: widgets.py:17
+msgid "Opacity: "
+msgstr "Непрозорість: "
 
-#: collabwrapper.py:179 collabwrapper.py:191
-msgid "Please wait for the connection..."
-msgstr "Будь ласка, зачекайте, доки буде встановлено з’єднання…"
+#: widgets.py:17
+msgid "Circle"
+msgstr "Коло"
 
-#: collabwrapper.py:190
-msgid "Resuming shared activity..."
-msgstr "Відновлюємо спільні дії…"
+#: widgets.py:17
+msgid "Square"
+msgstr "Квадрат"
 
-#: toolbars.py:42
-msgid "Zoom in"
-msgstr "Збільшити"
+#: widgets.py:31
+msgid "Choose brush properties"
+msgstr "Вибери властивості пензля"
 
-#: toolbars.py:48
-msgid "Zoom out"
-msgstr "Зменшити"
+#: widgets.py:234
+msgid "Size"
+msgstr "Розмір"
 
-#: activity.py:65
-#, python-format
-msgid "%s Source"
-msgstr "Код %s"
+#: widgets.py:248
+msgid "Opacity"
+msgstr "Непрозорість"
 
-#: icondialog.py:116
-msgid "Select an icon"
-msgstr "Вибрати піктограму"
+#: widgets.py:273
+msgid "Shape"
+msgstr "Форма"
 
-#: notebook.py:219
-#, python-format
-msgid "New Source File %d"
-msgstr "Новий файл коду %d"
+#: widgets.py:279 toolbox.py:535
+msgid "Keep aspect"
+msgstr "Зберегти пропорції"
 
-#: sound_check.py:27 library/pippy/sound.py:41
-msgid "Cannot find TamTamEdit sound library. Did you install TamTamEdit?"
-msgstr ""
-"Не вдалося знайти бібліотеки для роботи зі звуком TamTamEdit. Чи встановлено "
-"TamTamEdit?"
+#: widgets.py:304
+msgid "Brush properties"
+msgstr "Властивості пензля"
 
-#: pippy_app.py:97
-msgid "graphics"
-msgstr "графіка"
+#: widgets.py:310
+msgid "Stamp properties"
+msgstr "Властивості штампа"
 
-#: pippy_app.py:97
-msgid "math"
-msgstr "математика"
+#: widgets.py:314
+msgid "Eraser properties"
+msgstr "Властивості гумки"
 
-#: pippy_app.py:97
-msgid "python"
-msgstr "python"
+#: widgets.py:317
+msgid "Bucket properties"
+msgstr "Властивості заливки"
 
-#: pippy_app.py:97
-msgid "sound"
-msgstr "звук"
+#: widgets.py:319
+msgid "Picker properties"
+msgstr "Властивості піпетки"
 
-#: pippy_app.py:98
-msgid "string"
-msgstr "рядок"
+#: widgets.py:321 toolbox.py:410
+msgid "Select Area"
+msgstr "Виберіть ділянку"
 
-#: pippy_app.py:98
-msgid "tutorials"
-msgstr "підручники"
-
-#: pippy_app.py:185
-msgid "Import Python file to new tab"
-msgstr "Імпортувати файл Python до нової вкладки"
-
-#: pippy_app.py:191
-msgid "Export as Pippy document"
-msgstr "Експортувати як документ Pippy"
-
-#: pippy_app.py:197
-msgid "Save this file to the Pippy library"
-msgstr "Зберегти цей файл до бібліотеки Pippy"
-
-#: pippy_app.py:205
-msgid "Export as new Pippy example"
-msgstr "Експортувати як новий приклад Pippy"
-
-#: pippy_app.py:211
-msgid "Create a Sugar activity bundle"
-msgstr "Створити пакунок дії Sugar"
-
-#. TRANS: A distutils package is used to distribute Python modules
-#: pippy_app.py:218
-msgid "Export as a distutils package"
-msgstr "Експортувати як пакунок distutils"
-
-#: pippy_app.py:228
+#: toolbox.py:141
 msgid "Edit"
-msgstr "Зміни"
+msgstr "Змінити"
 
-#: pippy_app.py:242
-msgid "View"
-msgstr "Перегляд"
+#: toolbox.py:145
+msgid "Shapes properties"
+msgstr "Властивості фігури"
 
-#: pippy_app.py:252 pippy_app.py:500
-msgid "Show output panel"
-msgstr "Показати панель виведення"
+#: toolbox.py:161
+msgid "Shapes"
+msgstr "Фігури"
 
-#: pippy_app.py:265 pippy_app.py:268
-msgid "Run!"
-msgstr "Виконати!"
+#: toolbox.py:177
+msgid "Fonts"
+msgstr "Шрифти"
 
-#: pippy_app.py:266
-msgid "<alt>r"
-msgstr "<alt>r"
+#: toolbox.py:183
+msgid "Image"
+msgstr "Зображення"
 
-#: pippy_app.py:281 pippy_app.py:287
-msgid "Stop"
-msgstr "Зупинити"
+#: toolbox.py:251
+msgid "Undo"
+msgstr "Скасувати"
 
-#: pippy_app.py:282
-msgid "<alt>s"
-msgstr "<alt>s"
+#: toolbox.py:252
+msgid "Redo"
+msgstr "Повторити"
 
-#: pippy_app.py:297 pippy_app.py:303
+#: toolbox.py:253
+msgid "Copy"
+msgstr "Копіювати"
+
+#: toolbox.py:254
+msgid "Paste"
+msgstr "Вставити"
+
+#: toolbox.py:262
 msgid "Clear"
-msgstr "Спорожнити"
+msgstr "Очистити"
 
-#: pippy_app.py:298
-msgid "<alt>c"
-msgstr "<alt>c"
+#: toolbox.py:266 toolbox.py:327
+msgid "Enable sound"
+msgstr "Увімкнути звук"
 
-#: pippy_app.py:314
-msgid "Open an example"
-msgstr "Відкрити приклад"
+#: toolbox.py:325
+msgid "Disable sound"
+msgstr "Вимкнути звук"
 
-#: pippy_app.py:389
-msgid "My examples"
-msgstr "Мої приклади"
+#: toolbox.py:377 toolbox.py:381
+msgid "Brush"
+msgstr "Пензель"
 
-#: pippy_app.py:496
-msgid "Hide output panel"
-msgstr "Приховати панель виведення"
+#: toolbox.py:384
+msgid "Eraser"
+msgstr "Гумка"
 
-#: pippy_app.py:598
-#, python-format
-msgid "%s Activity"
-msgstr "Дія %s"
+#: toolbox.py:387
+msgid "Bucket"
+msgstr "Заповнення"
 
-#: pippy_app.py:708
-msgid "Python File added to Library"
-msgstr "До бібліотеки додано файл Python"
+#: toolbox.py:390
+msgid "Picker"
+msgstr "Піпетка"
 
-#: pippy_app.py:709
-#, python-brace-format
-msgid ""
-"The file you selected has been added to the library. Use \"import "
-"{importname}\" to import the library for using."
-msgstr ""
-"Позначений вами файл було додано до бібліотеки. Скористайтеся командою «"
-"import {importname}», щоб імпортувати бібліотеку для використання."
+#: toolbox.py:393
+msgid "Stamp"
+msgstr "Штамп"
 
-#: pippy_app.py:719
-msgid "Saved"
-msgstr "Збережено"
+#: toolbox.py:400
+msgid "Load stamp"
+msgstr "Завантажити штамп"
 
-#: pippy_app.py:720
-msgid "The document has been saved to journal."
-msgstr "Документ було збережено до журналу."
+#: toolbox.py:529
+msgid "Fill"
+msgstr "Заповнення"
 
-#: pippy_app.py:734 pippy_app.py:741
-msgid "Error importing Python file"
-msgstr "Помилка під час спроби імпортувати файл Python"
+#: toolbox.py:552
+msgid "Sides: "
+msgstr "Сторони: "
 
-#: pippy_app.py:735
-msgid "The file you selected is not a Python file."
-msgstr "Вибраний вами файл не є файлом коду Python."
+#: toolbox.py:621
+msgid "Ellipse"
+msgstr "Еліпс"
 
-#: pippy_app.py:742
-msgid "The file you selected is already open"
-msgstr "Вибраний вами файл вже відкрито"
+#: toolbox.py:624
+msgid "Rectangle"
+msgstr "Прямокутник"
 
-#: pippy_app.py:767 pippy_app.py:826
-msgid "Save as Activity Error"
-msgstr "Зберегти як помилку дії"
+#: toolbox.py:627
+msgid "Line"
+msgstr "Лінія"
 
-#: pippy_app.py:768
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an activity."
-msgstr ""
-"Будь ласка, надайте цій дії змістовної назви, перш ніж намагатися зберегти "
-"її як дію."
+#: toolbox.py:630
+msgid "Free form"
+msgstr "Довільна форма"
 
-#: pippy_app.py:771 pippy_app.py:778 pippy_app.py:873 pippy_app.py:915
-msgid "Ok"
-msgstr "Гаразд"
+#: toolbox.py:633
+msgid "Polygon"
+msgstr "Багатокутник"
 
-#: pippy_app.py:779
-msgid "Activity icon"
-msgstr "Піктограма дії"
+#: toolbox.py:636
+msgid "Heart"
+msgstr "Серце"
 
-#: pippy_app.py:780
-msgid "Please select an activity icon."
-msgstr "Будь ласка, виберіть піктограму дії."
+#: toolbox.py:639
+msgid "Parallelogram"
+msgstr "Паралелограм"
 
-#: pippy_app.py:785 pippy_app.py:800
-msgid "Creating activity bundle..."
-msgstr "Створюємо пакунок дії…"
+#: toolbox.py:642
+msgid "Arrow"
+msgstr "Стрілка"
 
-#: pippy_app.py:866 pippy_app.py:908
-msgid "Pippy Activity"
-msgstr "Дія Pippy"
+#: toolbox.py:645
+msgid "Star"
+msgstr "Зірка"
 
-#: pippy_app.py:868
-msgid "Save as distutils package error"
-msgstr "Помилка під час спроби зберегти як пакунок distutils"
+#: toolbox.py:648
+msgid "Trapezoid"
+msgstr "Трапецоїд"
 
-#: pippy_app.py:869
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an distutils package."
-msgstr ""
-"Будь ласка, надайте цій дії змістовної назви, перш ніж намагатися зберегти "
-"її як пакунок distutils."
+#: toolbox.py:651
+msgid "Triangle"
+msgstr "Трикутник"
 
-#: pippy_app.py:910
-msgid "Save as Example Error"
-msgstr "Помилка під час збереження прикладу"
+#: toolbox.py:685
+msgid "Type"
+msgstr "Набирати"
 
-#: pippy_app.py:912
-msgid ""
-"Please give your activity a meaningful name before attempting to save it as "
-"an example."
-msgstr ""
-"Будь ласка, надайте цій дії змістовної назви, перш ніж намагатися зберегти "
-"її як приклад."
+#: toolbox.py:777
+msgid "Insert Image"
+msgstr "Вставити зображення"
 
-#: pippy_app.py:921
-msgid "Creating example..."
-msgstr "Створюємо приклад…"
+#: toolbox.py:789
+msgid "Rotate Left"
+msgstr "Повернути ліворуч"
 
-#: pippy_app.py:927
-msgid "Save as Example Warning"
-msgstr "Попередження під час збереження прикладу"
+#: toolbox.py:793
+msgid "Rotate Right"
+msgstr "Повернути праворуч"
 
-#: pippy_app.py:928
-msgid "This example already exists. Do you want to overwrite it?"
-msgstr "Цей приклад вже існує. Ви дійсно хочете перезаписати його?"
+#: toolbox.py:798
+msgid "Horizontal Mirror"
+msgstr "Горизонтальне дзеркало"
 
-#: pippy_app.py:935 pippy_app.py:993
-msgid "Saved as example."
-msgstr "Збережено як приклад."
+#: toolbox.py:803
+msgid "Vertical Mirror"
+msgstr "Вертикальне дзеркало"
 
-#: pippy_app.py:957
-msgid "Error saving activity to journal."
-msgstr "Помилка під час спроби зберегти дію до журналу."
+#: toolbox.py:811
+msgid "Grayscale"
+msgstr "Відтінки сірого"
 
-#: pippy_app.py:977
-msgid "Activity saved to journal."
-msgstr "Дію збережено до журналу."
+#: toolbox.py:816
+msgid "Rainbow"
+msgstr "Веселка"
 
-#: pippy_app.py:1119
-msgid "Error"
-msgstr "Помилка"
+#: toolbox.py:821
+msgid "Kaleidoscope"
+msgstr "Калейдоскоп"
 
-#: pippy_app.py:1120
-msgid "Error reading data."
-msgstr "Помилка під час спроби прочитати дані."
+#: toolbox.py:825
+msgid "Invert Colors"
+msgstr "Інвертувати кольори"
 
-#: pippy_app.py:1448
-msgid "Working..."
-msgstr "Працюємо…"
+#: dialogs.py:100
+msgid "Done"
+msgstr "Завершено"
 
-#: pippy_app.py:1451
-msgid "done!"
-msgstr "Готово!"
+#: dialogs.py:128
+msgid "Select stamp"
+msgstr "Вибери штамп"
 
-#: library/pippy/game.py:36
-msgid "PAUSED"
-msgstr "ПРИЗУПИНЕНО"
+#: fontcombobox.py:90
+msgid "Select font"
+msgstr "Вибери шрифт"
+
+#~ msgid "Kalidoscope"
+#~ msgstr "Калейдоскоп"
