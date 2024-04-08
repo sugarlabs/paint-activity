@@ -1668,10 +1668,29 @@ class Area(Gtk.DrawingArea):
 
         logging.debug('image size %d x %d', width, height)
 
+        c_width = self.get_allocation().width
+        c_height = self.get_allocation().height
+        scale = None
+
+        # Checking if image exceed the editing area
+        if width > c_width or height > c_height:
+            # Calculate scaling factor
+            scale_x = c_width / width
+            scale_y = c_height / height
+            scale = min(scale_x, scale_y)
+
+            # Calculate new width and height
+            width = int(width * scale)
+            height = int(height * scale)
+
         # load in the selection surface
         self.selection_surface = cairo.ImageSurface(
             cairo.FORMAT_ARGB32, width, height)
         selection_ctx = cairo.Context(self.selection_surface)
+
+        # Scale the pixbuf to fit the new dimensions
+        if scale is not None:
+            selection_ctx.scale(scale, scale)
         self._pixbuf_to_context(pixbuf, selection_ctx)
 
         # show in the temp context too
