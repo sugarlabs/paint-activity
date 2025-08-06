@@ -1,3 +1,12 @@
+72
+* Fix issues with fillmodule
+* Added Language translation using Weblate (Languages add-on)
+* Feature: Fit big images to screen (Shubham)
+* Unify Korean po file as there's a duplicate (Chihurumnaya Ibiam)
+* Revert translate.sugarlabs.org synchronization (Chihurumnaya Ibiam)
+* Regenerate POT file (Chihurumnaya Ibiam)
+* translate.sugarlabs.org synchronization (Chihurumnaya Ibiam)
+
 71
 
 * Fix bucket-color tool (Martin Abente)
