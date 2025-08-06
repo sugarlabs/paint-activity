@@ -1,8 +1,17 @@
 To compile
 
-yum install make gcc python-devel
+yum install make gcc python3-devel
 
 make
+
+If you want to use the module outside the activity directory,
+move the needed binaries to the right location, it's usually
+part of the python sys.path.
+
+mv linux64_311/_fill.so /usr/lib/python3.11/lib-dynload
+
+The libdir indicates the architecture and python version
+so you know which you need.
 
 check the directory where the files are placed,
 right now only arch and python version are used to create 

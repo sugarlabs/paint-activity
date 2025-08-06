@@ -129,7 +129,7 @@ floodfill(unsigned long * pixels, int x, int y, int width, int height,unsigned l
     
     lista_xy = queue_init();
 
-    int color_start = pixels[x + y * width];
+    unsigned int color_start = pixels[x + y * width];
    
     if (color != color_start) {
         queue_enqueue(x, lista_xy);

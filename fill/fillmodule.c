@@ -91,9 +91,17 @@ static PyMethodDef FillMethods[] = {
     {"fill", fill, METH_VARARGS, "do fill flood in a array with the image data"},
     {NULL, NULL, 0, NULL}
 };
+
+static struct PyModuleDef _fill =
+{
+   .m_base = PyModuleDef_HEAD_INIT,
+   .m_name = "_fill",
+   .m_size = 0,
+   .m_methods = FillMethods,
+};
  
 PyMODINIT_FUNC
-init_fill(void)
+PyInit__fill(void)
 {
-    (void) Py_InitModule("_fill", FillMethods);
+    return PyModuleDef_Init(&_fill);
 }

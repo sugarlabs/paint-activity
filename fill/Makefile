@@ -34,10 +34,10 @@
 #Rafael Barbolo Lopes                (barbolo@gmail.com)
 #Alexandre A. Gonçalves Martinazzo   (alexandremartinazzo@gmail.com)
 
-CFLAGS = $(shell python-config --cflags) \
+CFLAGS = $(shell python3-config --cflags) \
 		-fPIC
 
-LDFLAGS = $(shell python-config --libs)
+LDFLAGS = $(shell python3-config --libs)
 
 ARCH_OUT = $(shell arch)
 
@@ -47,7 +47,7 @@ ARCH = $(shell if [ -z "$(shell arch | grep arm)" ]; then \
         echo $(ARCH_OUT); \
     fi)
 
-PYTHON_VERSION = $(shell python -c 'import sys; print "%d%d" % sys.version_info[0:2]')
+PYTHON_VERSION = $(shell python3 -c 'import sys; print("%d%d" % sys.version_info[0:2])')
 LIB_DIR = $(ARCH)_$(PYTHON_VERSION)
 
 all: _fill.so
@@ -68,4 +68,3 @@ fill.c: fill.defs fill.override
 
 clean:
 	rm -f *.so *.o fill.c *~ 
-
