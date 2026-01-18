@@ -163,6 +163,17 @@ class DrawToolbarBox(ToolbarBox):
         self.shapes_builder = ShapesToolbarBuilder(self._activity,
                                                    self.shapes_button,
                                                    self._fill_color_button)
+
+        def on_tool_changed(tool_name):
+            if tool_name in ('ellipse', 'rectangle', 'line', 'freeform', 'heart',
+                            'parallelogram', 'arrow', 'star', 'trapezoid',
+                            'triangle', 'polygon_regular'):
+                self._fill_color_button.set_sensitive(True)
+            else:
+                self._fill_color_button.set_sensitive(False)
+
+        self.tools_builder.connect("tool-changed", on_tool_changed)
+        self.shapes_builder.connect("tool-changed", on_tool_changed)
         self.initialize_brush_shape_tools()
 
         self.toolbar.insert(item_fill_color, -1)
