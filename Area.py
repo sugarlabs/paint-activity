@@ -926,7 +926,12 @@ class Area(Gtk.DrawingArea):
             logging.debug('Already filled')
             # reset the cursor
             display = Gdk.Display.get_default()
-            cursor = Gdk.Cursor.new_from_name(display, 'paint-bucket')
+            try:
+                cursor = Gdk.Cursor.new_from_name(display, 'paint-bucket')
+            except:
+                cursor=None
+            if cursor is None:
+                cursor = Gdk.Cursor.new_from_name(display, 'crosshair')
             self.get_window().set_cursor(cursor)
             return
 
@@ -974,7 +979,12 @@ class Area(Gtk.DrawingArea):
         self.enable_undo()
 
         display = Gdk.Display.get_default()
-        cursor = Gdk.Cursor.new_from_name(display, 'paint-bucket')
+        try:
+            cursor = Gdk.Cursor.new_from_name(display, 'paint-bucket')
+        except:
+            cursor=None
+        if cursor is None:
+                cursor = Gdk.Cursor.new_from_name(display, 'crosshair')
         if self._sounds_enabled:
             self.play_tool_sound()
         self.get_window().set_cursor(cursor)
