@@ -7,34 +7,37 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 17:39+1100\n"
-"PO-Revision-Date: 2009-05-23 06:39-0400\n"
-"Last-Translator: dina garnier oeliarisoa <dina.garnier.oeliarisoa@gmail.com>"
-"\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2026-03-29 19:00+0000\n"
+"Last-Translator: Gabriella Ralaivao <zafimamy@gmail.com>\n"
+"Language-Team: Malagasy <http://weblate.sugarlabs.org/projects/"
+"sugar-activities/paint/mg/>\n"
 "Language: mg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 1.6.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #: activity/activity.info:2
 msgid "Paint"
-msgstr ""
+msgstr "Manao hosodoko"
 
 #: activity/activity.info:3
 msgid ""
 "Picasso? Van Gogh? You can be any of them! Just let the artist inside you "
 "free. Transform images in your mind to beautiful paintings."
 msgstr ""
+"Picasso? Van Gogh? Afaka manao iray amin'izy ireo ianao! Avotsory ilay "
+"mpanakanto ao anatinao. Avadiho ho hosodoko mahafinaritra ireo sary ao an-"
+"tsainao."
 
 #: widgets.py:17
 msgid "Size: "
-msgstr ""
+msgstr "Habe: "
 
 #: widgets.py:17
 msgid "Opacity: "
-msgstr ""
+msgstr "Fahamatrohana: "
 
 #: widgets.py:17
 msgid "Circle"
