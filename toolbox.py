@@ -125,6 +125,8 @@ class DrawToolbarBox(ToolbarBox):
                       'eraser': 'tool-eraser',
                       'bucket': 'tool-bucket',
                       'picker': 'tool-picket'}
+    def _on_fill_color_clicked(self, widget):
+        print("Fill color clicked")
 
     def __init__(self, activity):
 
@@ -143,7 +145,11 @@ class DrawToolbarBox(ToolbarBox):
 
         self._fill_color_button = ButtonFillColor(activity)
         self._fill_color_button.set_title(_('Shapes properties'))
-        item_fill_color = Gtk.ToolItem()
+        
+        item_fill_color = ToolButton()
+        item_fill_color.set_icon_name("fill")
+        item_fill_color.set_tooltip("Fill Color")
+        item_fill_color.connect("clicked", self._on_fill_color_clicked)
         item_fill_color.add(self._fill_color_button)
         self._fill_color_button.set_sensitive(False)
 
