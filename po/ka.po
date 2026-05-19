@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-29 13:38-0400\n"
-"PO-Revision-Date: 2026-03-18 06:28+0000\n"
+"PO-Revision-Date: 2026-05-19 07:09+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/paint/ka/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: dialogs.py:100
 msgid "Done"
-msgstr ""
+msgstr "მზადაა"
 
 #: dialogs.py:128
 msgid "Select stamp"
@@ -63,11 +63,11 @@ msgstr ""
 
 #: toolbox.py:251
 msgid "Undo"
-msgstr ""
+msgstr "გაუქმება"
 
 #: toolbox.py:252
 msgid "Redo"
-msgstr ""
+msgstr "გამეორება"
 
 #: toolbox.py:253
 msgid "Copy"
